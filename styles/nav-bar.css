@@ -1,0 +1,158 @@
+/* html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.page-header,
+.page-footer {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.page-body {
+  flex-grow: 1;
+} */
+.lgo {
+  transition: ease-out 0.3s;
+}
+.lgo:hover {
+  transition: ease-in 0.3s;
+  transform: scale(1.1);
+}
+
+header {
+  background: var(--blackMain);
+  min-height: 70px;
+}
+
+nav .container-fluid {
+  padding: 0;
+}
+
+.burgerr {
+  font-size: 2em;
+  color: var(--yellow);
+}
+
+footer {
+  background: var(--blackMain);
+  padding-top: 175px;
+  padding-bottom: 80 px;
+}
+footer p {
+  margin-bottom: 30px;
+}
+footer a {
+  margin-bottom: 30px;
+  transition: ease-out 0.3s;
+}
+
+footer a:hover {
+  color: var(--yellow);
+  transition: ease-in 0.3s;
+}
+
+footer form {
+  border-radius: 8px;
+}
+
+footer input {
+  margin-left: 15px;
+  border-radius: 8px;
+  background: white;
+  width: 80%;
+  height: 48px;
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+
+footer input:active {
+  border: none;
+}
+
+footer button {
+  background: var(--yellow);
+  color: white;
+
+  text-align: center;
+}
+
+.hamburger {
+  display: none;
+}
+
+/* .inputemailfooter {
+  border: 1px solid var(--whites);
+} */
+
+@media (max-width: 1320px) {
+  footer button {
+    padding: 15px 30px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .button_nav {
+    padding: 10px 15px;
+  }
+
+  footer button {
+    padding: 15px 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  footer {
+    padding-top: 75px;
+  }
+  .nav-elements {
+    display: none;
+  }
+
+  footer button {
+    padding: 15px 30px;
+  }
+}
+
+@media (max-width: 980px) {
+}
+@media (max-width: 820px) {
+  .logo {
+    max-width: 200px;
+  }
+  .left {
+    max-width: 10%;
+    justify-content: flex-end !important;
+  }
+  .left-nav {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  footer button {
+    padding: 15px 30px;
+  }
+}
+
+@media (max-width: 424px) {
+  .burger-menu {
+    display: block;
+  }
+}
+
+@media (min-width: 992) and (max-width: 1090px) {
+  .button_nav {
+    padding: 20px 40px;
+  }
+}

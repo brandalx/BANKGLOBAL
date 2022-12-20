@@ -1,0 +1,218 @@
+/* All global styles goes here */
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* global variables decloration*/
+:root {
+  --yellow: #ffb444;
+  --blackMain: #3b414b;
+  --headingMain: #2c3136;
+  --paragraphMain: #262626;
+  --paragraphSecondary: #686868;
+  --paragraphTurtary: #afafaf;
+  --whites: #ffffff;
+}
+
+::-webkit-scrollbar {
+  /* Set the background color of the scrollbar */
+  background-color: var(--blackMain); /* This will create a blue scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background-color: var(--yellow);
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  cursor: url("./cursor.svg"), auto;
+}
+
+::selection {
+  color: var(--whites);
+  background: var(--yellow);
+}
+.container {
+  max-width: 1200px;
+}
+
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 24px;
+  color: var(--whites);
+  transition: ease-out 0.3s;
+}
+ul {
+  list-style: none;
+}
+.a {
+  list-style: none;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 24px;
+  color: var(--whites);
+  transition: ease-out 0.3s;
+}
+.a:hover {
+  color: var(--yellow);
+  transition: ease-in 0.3s;
+}
+a:hover {
+  color: var(--yellow);
+  transition: ease-in 0.3s;
+}
+
+.p_small {
+  font-weight: 400;
+  font-size: 0.875em;
+  line-height: 16px;
+}
+
+.p_default {
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 24px;
+}
+
+.p_bold {
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 24px;
+}
+
+.p_bold_18 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 1.25em;
+  line-height: 26px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1.625;
+  line-height: 26px;
+}
+
+.h3-2 {
+  font-weight: 700;
+  font-size: 1.625;
+  line-height: 32px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2.25em;
+  line-height: 18px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.75em;
+  line-height: 46px;
+}
+
+.button_nav {
+  background: none;
+  border: 2px solid var(--yellow);
+  border-radius: 8px;
+
+  font-weight: 700;
+  font-size: 1em;
+
+  padding: 10px 20px;
+
+  color: var(--whites);
+  transition: ease-out 0.3s;
+}
+
+.button_nav:hover {
+  transition: ease-in 0.3s;
+  cursor: pointer;
+  background: var(--yellow);
+  color: var(--whites);
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 24px;
+  padding: 15px 60px;
+  background: var(--yellow);
+  color: white;
+  transition: all 0.3s;
+  border: 2px solid var(--yellow);
+}
+
+button:hover {
+  border: 2px solid var(--paragraphMain);
+  color: var(--whites);
+  border: 2px solid var(--paragraphMain);
+  background: var(--paragraphMain);
+}
+
+.button_option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 1em;
+
+  /* padding: 10px 20px; */
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  background: var(--blackMain);
+  color: white;
+  transition: ease-out 0.3s;
+}
+
+.button_option:hover {
+  color: var(--whites);
+  cursor: pointer;
+  transition: ease-in 0.3s;
+  background: var(--paragraphMain);
+}
+
+.button_big {
+  border: none;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 24px;
+  padding: 15px 110px;
+  background: var(--yellow);
+  color: white;
+  transition: ease-out 0.3s;
+  border: 2px solid var(--yellow);
+}
+
+.button_big:hover {
+  border: 2px solid var(--paragraphSecondary);
+  color: var(--whites);
+  transition: ease-in 0.3s;
+  background: var(--paragraphMain);
+}

@@ -1,0 +1,10 @@
+/* All css imports here */
+@import "./general.css";
+/*For global styles*/
+
+/*Tools styles*/
+
+/*Pages styles*/
+@import "./nav-bar.css";
+@import "./index.css";
+@import url(./cursor.svg);
