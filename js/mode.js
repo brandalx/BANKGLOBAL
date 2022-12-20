@@ -55,5 +55,5 @@ function init() {
   displayDate();
   currency();
 }
-currency();
+
 init();
