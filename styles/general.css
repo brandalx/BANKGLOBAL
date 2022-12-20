@@ -172,6 +172,25 @@ button:hover {
   background: var(--paragraphMain);
 }
 
+.button_accent {
+  border: none;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 24px;
+  padding: 15px 60px;
+  border: 2px solid var(--paragraphMain);
+  background: var(--blackMain);
+  color: var(--whites);
+  transition: all 0.3s;
+}
+
+.button_accent:hover {
+  color: var(--whites);
+  border: 2px solid var(--yellow);
+  background: var(--paragraphMain);
+}
+
 .button_option {
   display: flex;
   align-items: center;
@@ -186,7 +205,7 @@ button:hover {
   height: 40px;
   text-align: center;
   background: var(--blackMain);
-  color: white;
+  color: var(--whites);
   transition: ease-out 0.3s;
 }
 
