@@ -44,12 +44,12 @@ function init() {
 
   let button = document.querySelector("#mode-toggle");
   button.addEventListener("click", () => {
-    if (button.innerHTML === "Light") {
+    if (button.innerHTML === "Dark") {
       applyColors(lightColors);
-      button.innerHTML = "Dark";
+      button.innerHTML = "Light";
     } else {
       applyColors(darkColors);
-      button.innerHTML = "Light";
+      button.innerHTML = "Dark";
     }
   });
 }
