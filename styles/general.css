@@ -47,6 +47,10 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
+input::placeholder {
+  padding-left: 10px;
+}
+
 a {
   list-style: none;
   text-decoration: none;
@@ -84,6 +88,13 @@ a:hover {
 }
 
 .p_default {
+  color: #262626;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 24px;
+}
+p {
+  color: #262626;
   font-weight: 400;
   font-size: 1em;
   line-height: 24px;
@@ -96,6 +107,7 @@ a:hover {
 }
 
 .p_bold_18 {
+  color: #2c3136;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
@@ -126,6 +138,7 @@ h2 {
 }
 
 h1 {
+  color: #3b414b;
   font-weight: 700;
   font-size: 2.75em;
   line-height: 46px;

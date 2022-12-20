@@ -186,8 +186,23 @@
 }
 
 .strip-5-box {
-  background: #f5f7f9;
   border-radius: 15px;
+}
+.strip-5-boxA {
+  background: linear-gradient(
+    270.83deg,
+    #ffecaf -3.96%,
+    #fff0b3 49.76%,
+    #fff0b3 108.14%
+  );
+}
+.strip-5-boxB {
+  background: linear-gradient(
+    270.83deg,
+    #fee1cf -3.96%,
+    #fed8c3 49.76%,
+    #fac9b4 108.14%
+  );
 }
 
 .strip-5-box {
@@ -248,6 +263,7 @@
 .currency-strip > *:hover {
   transform: scale(1.01);
   box-shadow: 18px 33px 49px -21px rgba(177, 177, 177, 0.438);
+  /* border: 2px solid var(--yellow); */
 }
 
 .newsletter-strip {
