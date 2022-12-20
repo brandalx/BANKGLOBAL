@@ -1,3 +1,5 @@
+window.onload = function () {};
+
 function scroll() {
   const body = document.querySelector("body");
 

@@ -184,6 +184,13 @@
   min-height: 330px;
   border-radius: 15px;
 }
+.willrecieve {
+  transition: ease-in 0.2s;
+  border: 2px solid var(--paragraphSecondary);
+}
+.willrecieve:focus {
+  border: 2px solid var(--yellow);
+}
 
 .strip-5-box {
   border-radius: 15px;

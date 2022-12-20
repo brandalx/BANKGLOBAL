@@ -50,6 +50,9 @@ body {
 input::placeholder {
   padding-left: 10px;
 }
+input {
+  padding-left: 10px;
+}
 
 a {
   list-style: none;

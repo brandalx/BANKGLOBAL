@@ -8,6 +8,7 @@
     <script>
       scroll();
       displayDate();
+      currency();
       function init() {
         var script = document.createElement("script");
         script.src = "./js/mode.js";
@@ -45,6 +46,10 @@
 
     <link rel="stylesheet" href="styles/main.css" />
     <title>Landing page</title>
+    <script src="./js/date.js"></script>
+    <script src="./js/mode.js"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/currency.js"></script>
   </head>
   <body onload="init()" class="">
     <!-- <div class="wrapper"> -->
@@ -530,22 +535,20 @@
                       >
                         <h3>USD</h3>
                         <div class="buy">
-                          <p style="color: var(--paragraphSecondary)">Buy</p>
-                          <h3 class="h3-2">63,70</h3>
+                          <p style="color: var(--paragraphSecondary)">Sell</p>
+                          <h3 id="id_USD_Buy" class="h3-2"></h3>
                         </div>
                         <div class="recieve">
-                          <p style="color: var(--paragraphSecondary)">
-                            Receive
-                          </p>
-                          <h3 class="h3-2">70, 98</h3>
+                          <p style="color: var(--paragraphSecondary)">Buy</p>
+                          <h3 id="id_USD_Receive" class="h3-2"></h3>
                         </div>
                       </div>
                       <div
                         class="currency-left-EUR d-flex justify-content-between align-items-lg-end align-items-sm-center align-items-center"
                       >
                         <h3>EUR</h3>
-                        <h3 class="h3-2">67, 15</h3>
-                        <h3 class="h3-2">75, 04</h3>
+                        <h3 id="id_EUR_Buy" class="h3-2"></h3>
+                        <h3 id="id_EUR_Receive" class="h3-2"></h3>
                       </div>
                     </div>
                     <div
@@ -559,17 +562,24 @@
                         action=""
                         class="form_buy col-lg-8 col-sm-12 col-12 d-flex flex-column mb-4"
                       >
-                        <h3 class="mb-4">USD</h3>
+                        <h3
+                          class="mb-4 h3_2"
+                          style="color: var(--yellow); font-weight: bold"
+                        >
+                          USD
+                        </h3>
                         <label
-                          class="mb-2"
+                          class="mb-2 labelee"
                           style="color: var(--paragraphSecondary)"
                           for="number"
                         >
                           Want to buy</label
                         >
                         <input
-                          class="rounded-2 py-3"
-                          style="border: 2px solid var(--paragraphSecondary)"
+                          value="1"
+                          min="0"
+                          id="id_input_USD"
+                          class="rounded-2 py-3 willrecieve"
                           type="number"
                           placeholder="Enter amount in USD"
                         />
@@ -584,16 +594,20 @@
                           style="color: var(--paragraphSecondary)"
                           for="number"
                         >
-                          Will receive</label
+                          You will receive</label
                         >
                         <input
-                          class="rounded-2 py-3"
-                          style="border: 2px solid var(--paragraphSecondary)"
+                          value="1"
+                          min="0"
+                          id="id_input_EUR"
+                          class="rounded-2 py-3 bbold"
+                          style="border: 2px solid var(--yellow)"
                           type="number"
                           placeholder="Enter amount in EUR"
                         />
                       </form>
                       <button
+                        onclick="currency()"
                         class="button_big align-self-sm-center align-self-center align-self-lg-end mb-sm-4 mb-lg-0 mb-4"
                       >
                         Calculate
@@ -855,9 +869,7 @@
         </div>
       </div>
     </footer>
-    <script src="js/mode.js"></script>
-    <script src="js/scroll.js"></script>
-    <script src="js//date.js"></script>
+
     <!-- </div> -->
   </body>
 </html>

@@ -52,4 +52,8 @@ function init() {
       button.innerHTML = "Dark";
     }
   });
+  displayDate();
+  currency();
 }
+currency();
+init();
