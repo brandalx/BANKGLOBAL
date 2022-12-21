@@ -46,10 +46,23 @@ function init() {
     applyColors(darkColors);
   }
   let button = document.querySelector("#mode-toggle");
-
+  // Set the innerHTML of the button based on the current theme
   button.innerHTML = currentTheme === "dark" ? "Light" : "Dark";
   button.addEventListener("click", () => {
     if (currentTheme === "light") {
+      applyColors(lightColors);
+      currentTheme = "dark";
+      button.innerHTML = "Light";
+    } else {
+      applyColors(darkColors);
+      currentTheme = "light";
+      button.innerHTML = "Dark";
+    }
+  });
+  // Add a listener for changes in the user's preferred color scheme
+  const colorSchemeQuery = window.matchMedia("(prefers-color-scheme: dark)");
+  colorSchemeQuery.addListener((e) => {
+    if (e.matches) {
       applyColors(lightColors);
       currentTheme = "dark";
       button.innerHTML = "Light";
