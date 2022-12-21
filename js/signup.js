@@ -25,7 +25,7 @@ function displayValue() {
     document.querySelector("#informa").style.color = "green";
   } else if (namee.value.length < 6) {
     document.querySelector("#informa").innerHTML =
-      "Looks like you  haven't provided you name and family name correct";
+      "Looks like you  haven't provided you name correct";
     document.querySelector("#informa").style.color = "orange";
   } else {
     document.querySelector("#informa").innerHTML =
