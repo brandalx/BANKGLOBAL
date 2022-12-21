@@ -14,7 +14,8 @@
   --paragraphSecondary: #686868;
   --paragraphTurtary: #afafaf;
   --whites: #ffffff;
-  --bg: #3f3f3f;
+  --bg: #ffffff;
+  --whitesreversed: #ffffff;
 }
 
 ::-webkit-scrollbar {
@@ -33,6 +34,7 @@ body {
 }
 
 body {
+  /* background-color: var(--bg); */
   cursor: url("./cursor.svg"), auto;
 }
 

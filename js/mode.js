@@ -7,6 +7,8 @@ function init() {
     paragraphSecondary: "#686868",
     paragraphTurtary: "#afafaf",
     whites: "#ffffff",
+    whitesreversed: "#3a3a3a",
+    // bg: "#3f3f3f",
   };
   const darkColors = {
     yellow: "#2667ff",
@@ -16,6 +18,8 @@ function init() {
     paragraphSecondary: "#686868",
     paragraphTurtary: "#ffffff",
     whites: "#2c3136",
+    whitesreversed: "#ffffff",
+    // bg: "#ffffff",
   };
   function applyColors(colors) {
     document.documentElement.style.setProperty("--yellow", colors.yellow);
@@ -37,6 +41,11 @@ function init() {
       colors.paragraphTurtary
     );
     document.documentElement.style.setProperty("--whites", colors.whites);
+    document.documentElement.style.setProperty("--bg", colors.bg);
+    document.documentElement.style.setProperty(
+      "--whitesreversed",
+      colors.whitesreversed
+    );
   }
   let isDarkTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
   let currentTheme = isDarkTheme ? "dark" : "light";
