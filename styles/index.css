@@ -290,6 +290,19 @@
   background: var(--blackMain);
 }
 
+.news {
+  min-height: 430px;
+}
+
+.news .container {
+  display: flex;
+  align-items: center;
+  min-height: 430px;
+}
+
+.news .container row {
+}
+
 @media (max-width: 992px) {
   .strip-1 {
     min-height: 380px;
