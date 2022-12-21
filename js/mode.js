@@ -59,10 +59,12 @@ function init() {
   button.innerHTML = currentTheme === "dark" ? "Light" : "Dark";
   button.addEventListener("click", () => {
     if (currentTheme === "light") {
+      playAudioOn();
       applyColors(lightColors);
       currentTheme = "dark";
       button.innerHTML = "Light";
     } else {
+      playAudioOff();
       applyColors(darkColors);
       currentTheme = "light";
       button.innerHTML = "Dark";
@@ -86,3 +88,13 @@ function init() {
   login();
 }
 init();
+
+function playAudioOn() {
+  var audio = document.getElementById("myAudioOn");
+  audio.play();
+}
+
+function playAudioOff() {
+  var audio = document.getElementById("myAudioOff");
+  audio.play();
+}
