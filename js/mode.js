@@ -8,7 +8,6 @@ function init() {
     paragraphTurtary: "#afafaf",
     whites: "#ffffff",
   };
-
   const darkColors = {
     yellow: "#2667ff",
     blackMain: "#ffffff",
@@ -18,7 +17,6 @@ function init() {
     paragraphTurtary: "#ffffff",
     whites: "#2c3136",
   };
-
   function applyColors(colors) {
     document.documentElement.style.setProperty("--yellow", colors.yellow);
     document.documentElement.style.setProperty("--blackMain", colors.blackMain);
@@ -40,29 +38,28 @@ function init() {
     );
     document.documentElement.style.setProperty("--whites", colors.whites);
   }
-
   let isDarkTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
-
   let currentTheme = isDarkTheme ? "dark" : "light";
-
   if (currentTheme === "dark") {
     applyColors(lightColors);
   } else {
     applyColors(darkColors);
   }
-
   let button = document.querySelector("#mode-toggle");
+
+  button.innerHTML = currentTheme === "dark" ? "Light" : "Dark";
   button.addEventListener("click", () => {
     if (currentTheme === "light") {
       applyColors(lightColors);
       currentTheme = "dark";
+      button.innerHTML = "Light";
     } else {
       applyColors(darkColors);
       currentTheme = "light";
+      button.innerHTML = "Dark";
     }
   });
   displayDate();
   currency();
 }
-
 init();
