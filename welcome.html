@@ -13,6 +13,8 @@
         document.head.appendChild(script);
       }
     </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/transfer2.js" defer></script>
     <script src="/js/login.js" defer></script>
     <script src="./js/transfer.js" defer></script>
@@ -249,7 +251,11 @@
       </div>
     </header>
 
-    <div class="welcome container-fluid pt-5 pb-5">
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1200"
+      class="welcome container-fluid pt-5 pb-5"
+    >
       <div class="container welcomeBlock p-1 pt-5 pb-5">
         <div class="py-20 py-lg-32 bg-surface-secondary">
           <div class="container max-w-screen-xl">
@@ -428,5 +434,8 @@
     <script src="js/scroll.js"></script>
     <script src="js//date.js"></script>
     <!-- </div> -->
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

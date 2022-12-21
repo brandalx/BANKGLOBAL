@@ -15,6 +15,8 @@
         document.head.appendChild(script);
       }
     </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/transfer.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -255,7 +257,11 @@
             <div
               class="col-12 col-sm-12 10 col-lg-8 min-h-lg-screen d-flex flex-column justify-content-center py-lg-16 px-lg-20 position-relative"
             >
-              <div class="row welcomeBlock p-1 pt-5 pb-5">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                class="row welcomeBlock p-1 pt-5 pb-5"
+              >
                 <div class="col-lg-10 col-md-10 col-xl-7 mx-auto">
                   <div class="text-center mb-12">
                     <a class="d-inline-block" href="#">
@@ -520,5 +526,8 @@
     <script src="js/scroll.js"></script>
     <script src="js//date.js"></script>
     <!-- </div> -->
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
