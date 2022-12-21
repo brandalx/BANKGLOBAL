@@ -35,3 +35,14 @@ id_input_EUR.value;
 }
 
 currency();
+
+async function f() {
+  const response = await fetch(
+    `https://www.google.com/search?q=1+USD+in+EUR&oq=1+USD+in+EUR&aqs=chrome..69i57j0i22i30j0i390l4.13138j1j7&sourceid=chrome&ie=UTF-8`
+  );
+  const data = await response.text();
+
+  const regex = /1 US dollar = ([0-9.]+) euros/;
+  const [, exchangeRate] = regex.exec(data);
+  console.log(data);
+}
