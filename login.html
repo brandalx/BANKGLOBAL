@@ -15,7 +15,7 @@
         document.head.appendChild(script);
       }
     </script>
-
+    <script src="./js/transfer.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -42,7 +42,7 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
-
+    <script src="/js/login.js" defer></script>
     <link rel="stylesheet" href="styles/main.css" />
     <title>Log In</title>
   </head>
@@ -296,7 +296,11 @@
                         /></svg
                     ></span>
                     <h1 class="">Welcome back!</h1>
-                    <p class="mt-2" style="color: var(--paragraphSecondary)">
+                    <p
+                      id="informa"
+                      class="mt-2"
+                      style="color: var(--paragraphSecondary)"
+                    >
                       All good things begins with online banking
                     </p>
                   </div>
@@ -313,6 +317,7 @@
                         class="form-control"
                         id="email"
                         placeholder="Your email address"
+                        value=""
                       />
                     </div>
                     <div class="mb-5">
@@ -325,7 +330,7 @@
                       <input
                         type="password"
                         class="form-control"
-                        id="password"
+                        id="passworddd"
                         placeholder="Password"
                         autocomplete="current-password"
                       />
@@ -333,6 +338,7 @@
                     <div class="mb-5">
                       <div class="form-check">
                         <input
+                          id="password"
                           class="form-check-input"
                           type="checkbox"
                           name="check_example"
@@ -343,8 +349,13 @@
                         </label>
                       </div>
                     </div>
-                    <button style="padding: 10px 30px" class="button_accent">
-                      <a style="" href="#" class="loginB w-full"> Sign in </a>
+                    <button
+                      type="button"
+                      onclick="displayValue()"
+                      style="padding: 10px 30px"
+                      class="button_accent"
+                    >
+                      Sign in
                     </button>
                   </form>
                   <div class="py-5 text-center">
@@ -491,6 +502,7 @@
               class="bg-white d-flex align-items-center justify-content-between"
             >
               <input
+                id="emaill"
                 type="email"
                 class="inputemailfooter"
                 placeholder="Enter your email"

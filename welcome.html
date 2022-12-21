@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <script>
-      scroll();
-      displayDate();
       function init() {
         var script = document.createElement("script");
         script.src = "./js/mode.js";
@@ -15,6 +13,8 @@
         document.head.appendChild(script);
       }
     </script>
+    <script src="/js/login.js" defer></script>
+    <script src="./js/transfer.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -42,11 +42,11 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
-
+    <script src="./js/login.js"></script>
     <link rel="stylesheet" href="styles/main.css" />
     <title>Welcome!</title>
   </head>
-  <body onload="init()" class="">
+  <body class="bbody" onload="init()" class="">
     <!-- <div class="wrapper"> -->
     <header class="container-fluid" style="background: var(--blackMain)">
       <div class="container">
@@ -248,26 +248,43 @@
       </div>
     </header>
 
-    <div class="strip-1 container-fluid page-body">
-      <div class="container">
-        <div
-          class="row align-items-center mx-sm-auto text-sm-center text-lg-start mx-sm-auto"
-        >
-          <div class="col-lg-5 col-sm-12 col-12 order-sm-1 order-1 order-lg-0">
-            <h1 class="text-focus-in slide-in-bottom">Log in</h1>
-            <h4 class="">
-              Say goodbye to long lines and inconvenient banking hours.
-            </h4>
-            <button class="button_accent mb-sm-3 mb-lg-0 mb-3">
-              Read more
-            </button>
-          </div>
-          <div class="col-lg-6 col-sm-12">
-            <img src="./img/picture1.jpg" alt="" />
+    <div class="welcome container-fluid">
+      <div class="container welcomeBlock">
+        <div class="py-20 py-lg-32 bg-surface-secondary">
+          <div class="container max-w-screen-xl">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-10 col-lg-8 text-center">
+                <h5 class="h5 mb-5 text-uppercase" style="color: var(--yellow)">
+                  You're all sett!
+                </h5>
+
+                <h1 class="mb-5">
+                  Welcome back, <span id="id_user">nooo</span>! Continue with
+                  Bank Global
+                </h1>
+                <!-- Text -->
+                <p class="lead mb-5">
+                  Welcome to your online bank account! Here you can easily
+                  manage your finances and make informed financial decisions
+                </p>
+                <!-- Buttons -->
+                <div class="mx-n2">
+                  <a
+                    href="./index.html"
+                    class="btn button_accent shadow-sm mx-2 px-lg-8"
+                  >
+                    Get started
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- <h1>Welcome,<span id="id_user">nooo</span></h1>
+    <input type="text" id="id_user_input" value="hello" /> -->
 
     <footer class="container-fluid page-footer pb-sm-5 pb-5 pb-lg-0">
       <div class="container pb-sm-4 pb-4 pb-lg-0">

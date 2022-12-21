@@ -83,5 +83,6 @@ function init() {
   });
   displayDate();
   currency();
+  login();
 }
 init();
