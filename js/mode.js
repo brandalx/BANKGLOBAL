@@ -9,7 +9,6 @@ function init() {
     whites: "#ffffff",
   };
 
-  // Define the colors for dark mode
   const darkColors = {
     yellow: "#2667ff",
     blackMain: "#ffffff",
@@ -42,14 +41,24 @@ function init() {
     document.documentElement.style.setProperty("--whites", colors.whites);
   }
 
+  let isDarkTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+  let currentTheme = isDarkTheme ? "dark" : "light";
+
+  if (currentTheme === "dark") {
+    applyColors(lightColors);
+  } else {
+    applyColors(darkColors);
+  }
+
   let button = document.querySelector("#mode-toggle");
   button.addEventListener("click", () => {
-    if (button.innerHTML === "Dark") {
+    if (currentTheme === "light") {
       applyColors(lightColors);
-      button.innerHTML = "Light";
+      currentTheme = "dark";
     } else {
       applyColors(darkColors);
-      button.innerHTML = "Dark";
+      currentTheme = "light";
     }
   });
   displayDate();
