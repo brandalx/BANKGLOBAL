@@ -94,6 +94,7 @@ ul {
   transition: ease-in 0.3s;
 }
 a:hover {
+  transition: all 0.3s !important;
   color: var(--yellow);
   transition: ease-in 0.3s;
 }
@@ -181,6 +182,7 @@ h1 {
 }
 
 .button_nav:hover {
+  transition: all 0.3s !important;
   transition: ease-in 0.3s;
   cursor: pointer;
   background: var(--yellow);
@@ -201,6 +203,7 @@ button {
 }
 
 button:hover {
+  transition: all 0.3s !important;
   border: 2px solid var(--paragraphMain);
   color: var(--whites);
   border: 2px solid var(--paragraphMain);
@@ -221,6 +224,7 @@ button:hover {
 }
 
 .button_accent:hover {
+  transition: all 0.3s !important;
   color: var(--whites);
   border: 2px solid var(--yellow);
   background: var(--paragraphMain);
@@ -245,6 +249,7 @@ button:hover {
 }
 
 .button_option:hover {
+  transition: all 0.3s !important;
   color: var(--whites);
   cursor: pointer;
   transition: ease-in 0.3s;
@@ -265,6 +270,7 @@ button:hover {
 }
 
 .button_big:hover {
+  transition: all 0.3s !important;
   border: 2px solid var(--paragraphSecondary);
   color: var(--whites);
   transition: ease-in 0.3s;

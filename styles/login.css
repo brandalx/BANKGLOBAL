@@ -15,6 +15,7 @@
   border-radius: 15px;
 }
 .welcomeBlock:hover {
+  transition: all 0.3s !important;
   border: 1px solid #e0e0e0;
   transform: scale(1.01);
   box-shadow: 18px 33px 49px -21px rgba(177, 177, 177, 0.438);

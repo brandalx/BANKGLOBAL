@@ -118,6 +118,7 @@
   transition: all 0.3s;
 }
 .box:hover {
+  transition: all 0.3s !important;
   cursor: pointer;
   transform: scale(1.025);
   box-shadow: 18px 33px 49px -21px rgba(84, 84, 84, 0.52);
@@ -128,6 +129,7 @@
   max-width: 100%;
 }
 .box img:hover {
+  transition: all 0.3s !important;
   cursor: pointer;
   transform: scale(1.045);
   box-shadow: 18px 33px 49px -21px rgba(84, 84, 84, 0.52);
@@ -193,6 +195,7 @@
 }
 
 .strip-4 img:hover {
+  transition: all 0.3s !important;
   cursor: pointer;
   transform: scale(1.045);
   box-shadow: 18px 33px 49px -21px rgba(84, 84, 84, 0.52);
@@ -239,6 +242,7 @@
   transition: all 0.3s;
 }
 .strip-5-box:hover {
+  transition: all 0.3s !important;
   cursor: pointer;
   transform: scale(1.025);
   box-shadow: 18px 33px 49px -21px rgba(84, 84, 84, 0.52);
@@ -249,6 +253,7 @@
   max-width: 100%;
 }
 .strip-5-box img:hover {
+  transition: all 0.3s !important;
   cursor: pointer;
   transform: scale(1.045);
   box-shadow: 18px 33px 49px -21px rgba(84, 84, 84, 0.52);
@@ -286,6 +291,7 @@
 }
 
 .currency-strip > *:hover {
+  transition: all 0.3s !important;
   transform: scale(1.01);
   box-shadow: 18px 33px 49px -21px rgba(177, 177, 177, 0.438);
   /* border: 2px solid var(--yellow); */
@@ -295,10 +301,10 @@
   min-height: 520px;
 }
 .newsletter-strip img {
-  transition: all 0.3s;
   border-radius: 15px;
 }
 .newsletter-strip img:hover {
+  transition: all 0.3s !important;
   transform: scale(1.025);
   box-shadow: 18px 33px 49px -21px rgba(107, 107, 107, 0.438);
 }
