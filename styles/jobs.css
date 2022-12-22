@@ -1,0 +1,40 @@
+.strip-1-job {
+  min-height: 780px;
+}
+
+.strip-1-job .container {
+  background-size: cover;
+  min-height: 780px;
+  background: url("../img/Rectangle\ 71.png");
+  background-position: center;
+}
+
+.strip-1-job .container .row {
+  min-height: 780px;
+  align-self: center;
+}
+
+.input-wrapper {
+  min-height: 220px;
+  background: #ffffffcb;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+
+.input-wrapper:hover {
+  transform: scale(1.025);
+  box-shadow: 18px 33px 49px -21px rgba(168, 168, 168, 0.459);
+}
+
+.job_search {
+  border-radius: 15px;
+  height: 50px;
+  border-radius: 15px;
+  background: #f0f0f0;
+}
+
+.btn_job {
+  border-radius: 15px;
+  text-align: center !important;
+  padding: 10px 30px;
+}
