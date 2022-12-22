@@ -70,7 +70,7 @@
 .card {
   border-radius: 15px !important;
   border: 0 !important;
-  border-radius: 4px;
+  border-radius: 25px !important;
 }
 
 .card {
@@ -89,7 +89,7 @@
 }
 
 .card img {
-  border-radius: 15px !important;
+  border-radius: 25px !important;
   transition: all 0.3s;
 }
 
