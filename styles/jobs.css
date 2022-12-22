@@ -4,11 +4,10 @@
 
 .strip-1-job .container {
   min-height: 780px;
-  background: url("../img/Rectangle-71.png");
-
+  background: url("../img/Rectangle-7s1.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .strip-1-job {
@@ -166,4 +165,10 @@
 
 .card-3 {
   min-height: 130px;
+}
+
+.iii {
+  font-style: normal;
+  color: var(--yellow);
+  cursor: pointer;
 }
