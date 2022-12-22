@@ -44,3 +44,81 @@
   text-align: center !important;
   padding: 10px 30px;
 }
+
+.strip-2-job {
+  min-height: 555px;
+}
+.strip-2-job .container {
+  min-height: 555px;
+}
+
+.strip-2-job .container .row {
+  min-height: 555px;
+}
+
+.card-group {
+  border: none !important;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  border-radius: 15px !important;
+  border: 0 !important;
+  border-radius: 4px;
+}
+
+.card {
+  text-align: center;
+  transition: all 0.3s;
+  margin: 20px 20px;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.025);
+  box-shadow: 18px 33px 49px -21px rgba(84, 84, 84, 0.52);
+}
+
+.card img {
+}
+
+.card img {
+  border-radius: 15px !important;
+  transition: all 0.3s;
+}
+
+.card img:hover {
+  cursor: pointer;
+  transform: scale(1.045);
+  box-shadow: 18px 33px 49px -21px rgba(84, 84, 84, 0.52);
+}
+
+.card-job-1 {
+  background: linear-gradient(
+    90deg,
+    #e4b19b 1.1%,
+    #f9ded3 57.44%,
+    #f0c5b4 100%
+  );
+}
+.card-job-2 {
+  background: linear-gradient(
+    90deg,
+    #9dd4e7 1.1%,
+    #b8e5f3 57.44%,
+    #b1dfec 100%
+  );
+}
+
+.card-job-3 {
+  background: #ddc4ef;
+}
+
+.card-job-4 {
+  background: #f9ceda;
+}
