@@ -3,10 +3,13 @@
 }
 
 .strip-1-job .container {
-  background-size: cover;
   min-height: 780px;
   background: url("../img/Rectangle\ 71.png");
   background-position: center;
+}
+
+.strip-1-job {
+  padding: 0 !important ;
 }
 
 .strip-1-job .container .row {
