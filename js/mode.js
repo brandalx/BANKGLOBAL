@@ -86,23 +86,23 @@ function init() {
     }
   }
 
-  button.addEventListener("click", () => {
-    if (currentTheme === "light") {
-      playAudioOn();
-      applyColors(lightColors);
-      currentTheme = "dark";
-      button.innerHTML = "Light";
-      // Save the dark theme in localStorage
-      localStorage.setItem("theme", "dark");
-    } else {
-      playAudioOff();
-      applyColors(darkColors);
-      currentTheme = "light";
-      button.innerHTML = "Dark";
-      // Save the light theme in localStorage
-      localStorage.setItem("theme", "light");
-    }
-  });
+  // button.addEventListener("click", () => {
+  //   if (currentTheme === "light") {
+  //     playAudioOn();
+  //     applyColors(lightColors);
+  //     currentTheme = "dark";
+  //     button.innerHTML = "Light";
+  //     // Save the dark theme in localStorage
+  //     localStorage.setItem("theme", "dark");
+  //   } else {
+  //     playAudioOff();
+  //     applyColors(darkColors);
+  //     currentTheme = "light";
+  //     button.innerHTML = "Dark";
+  //     // Save the light theme in localStorage
+  //     localStorage.setItem("theme", "light");
+  //   }
+  // });
 
   // Add a listener for changes in the user's preferred color scheme
   const colorSchemeQuery = window.matchMedia("(prefers-color-scheme: dark)");
@@ -117,23 +117,23 @@ function init() {
       button.innerHTML = "Dark";
     }
   });
-  button.addEventListener("click", () => {
-    if (currentTheme === "light") {
-      playAudioOn();
-      applyColors(lightColors);
-      currentTheme = "dark";
-      button.innerHTML = "Light";
-      // Save the dark theme in localStorage
-      localStorage.setItem("theme", "dark");
-    } else {
-      playAudioOff();
-      applyColors(darkColors);
-      currentTheme = "light";
-      button.innerHTML = "Dark";
-      // Save the light theme in localStorage
-      localStorage.setItem("theme", "light");
-    }
-  });
+  //  button.addEventListener("click", () => {
+  //   if (currentTheme === "light") {
+  //     playAudioOn();
+  //     applyColors(lightColors);
+  //     currentTheme = "dark";
+  //     button.innerHTML = "Light";
+  //     // Save the dark theme in localStorage
+  //     localStorage.setItem("theme", "dark");
+  //   } else {
+  //     playAudioOff();
+  //     applyColors(darkColors);
+  //     currentTheme = "light";
+  //     button.innerHTML = "Dark";
+  //     // Save the light theme in localStorage
+  //     localStorage.setItem("theme", "light");
+  //   }
+  // });
   displayDate();
   currency();
   login();
