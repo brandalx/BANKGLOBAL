@@ -22,13 +22,13 @@
 
 .input-wrapper {
   min-height: 220px;
-  background: #ffffffcb;
+  background: #ffffffad;
   border-radius: 15px;
   transition: all 0.3s;
 }
 
 .input-wrapper:hover {
-  transform: scale(1.025);
+  transform: scale(1.025) !important;
   box-shadow: 18px 33px 49px -21px rgba(168, 168, 168, 0.459);
 }
 
@@ -75,14 +75,14 @@
 
 .card {
   text-align: center;
-  transition: all 0.3s;
+
   margin: 20px 20px;
 }
 
 .card:hover {
   transition: all 0.3s !important;
   cursor: pointer;
-  transform: scale(1.025);
+  transform: scale(1.025) !important;
   box-shadow: 18px 33px 49px -21px rgba(172, 172, 172, 0.452);
 }
 
@@ -97,7 +97,7 @@
 .card img:hover {
   transition: all 0.3s !important;
   cursor: pointer;
-  transform: scale(1.045);
+  transform: scale(1.045) !important;
   box-shadow: 18px 33px 49px -21px rgba(151, 151, 151, 0.452);
 }
 
