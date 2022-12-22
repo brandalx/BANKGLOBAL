@@ -15,7 +15,8 @@
         document.head.appendChild(script);
       }
     </script>
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -266,7 +267,13 @@
           <div
             class="col-lg-10 col-sm-11 col-11 input-wrapper pt-3 pb-3 align-content-center d-flex flex-column justify-content-center"
           >
-            <h1 class="text-start">Find a job</h1>
+            <h1
+              data-aos="fade-right"
+              data-aos-duration="800"
+              class="text-start text-focus-in slide-in-bottom"
+            >
+              Find a job
+            </h1>
 
             <div
               class="input-group align-items-center d-flex justify-content-between"
@@ -301,12 +308,16 @@
         >
           <div class="col-lg-12">
             <h2
+              data-aos="fade-up"
+              data-aos-duration="1000"
               class="mb-3 ms-4 text-lg-start text-md-start text-sm-center text-center"
             >
               Today working in Bank Global is:
             </h2>
             <div class="card-group card-container">
               <div
+                data-aos="fade-up"
+                data-aos-duration="800"
                 class="card card-job-1 me-sm-0 ms-sm-0 ms-0 me-0 me-lg-3 ms-lg-3 ms-md-1 me-md-1"
               >
                 <div class="card-body">
@@ -318,6 +329,8 @@
                 <img src="./img/333.png" class="card-img-top" alt="..." />
               </div>
               <div
+                data-aos="fade-up"
+                data-aos-duration="1000"
                 class="card card-job-2 me-sm-0 ms-sm-0 ms-0 me-0 me-lg-3 ms-lg-3 ms-md-1 me-md-1"
               >
                 <div class="card-body">
@@ -329,6 +342,8 @@
                 <img src="./img/344.png" class="card-img-top" alt="..." />
               </div>
               <div
+                data-aos="fade-up"
+                data-aos-duration="1200"
                 class="card card-job-3 me-sm-0 ms-sm-0 ms-0 me-0 me-lg-3 ms-lg-3 ms-md-1 me-md-1"
               >
                 <div class="card-body">
@@ -341,6 +356,8 @@
                 <img src="./img/35.png" class="card-img-bottom" alt="..." />
               </div>
               <div
+                data-aos="fade-up"
+                data-aos-duration="1400"
                 class="card card-job-4 me-sm-0 ms-sm-0 ms-0 me-0 me-lg-3 ms-lg-3 ms-md-1 me-md-1"
               >
                 <div class="card-body">
@@ -364,12 +381,16 @@
         >
           <div class="col-lg-12">
             <h2
+              data-aos="fade-up"
+              data-aos-duration="1000"
               class="mb-3 ms-4 text-lg-start text-md-start text-sm-center text-center"
             >
               Job trends
             </h2>
             <div class="card-group card-container">
               <div
+                data-aos="fade-up"
+                data-aos-duration="800"
                 class="card card-3 card-job-1-1 me-sm-0 ms-sm-0 ms-0 me-0 me-lg-3 ms-lg-3 ms-md-1 me-md-1"
               >
                 <div
@@ -379,6 +400,8 @@
                 </div>
               </div>
               <div
+                data-aos="fade-up"
+                data-aos-duration="1000"
                 class="card card-job-2-2 me-sm-0 ms-sm-0 ms-0 me-0 me-lg-3 ms-lg-3 ms-md-1 me-md-1"
               >
                 <div
@@ -390,6 +413,8 @@
                 </div>
               </div>
               <div
+                data-aos="fade-up"
+                data-aos-duration="1000"
                 class="card card-3 card-job-3-3 me-sm-0 ms-sm-0 ms-0 me-0 me-lg-3 ms-lg-3 ms-md-1 me-md-1"
               >
                 <div
@@ -546,6 +571,9 @@
     <script src="js/mode.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js//date.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- </div> -->
   </body>
 </html>
