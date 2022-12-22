@@ -47,6 +47,7 @@
 
 .strip-2-job {
   min-height: 555px;
+  display: flex;
 }
 .strip-2-job .container {
   min-height: 555px;
