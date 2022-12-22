@@ -123,3 +123,45 @@
 .card-job-4 {
   background: #f9ceda;
 }
+
+.strip-3-job {
+  min-height: 310px;
+  display: flex;
+}
+.strip-3-job .container {
+  min-height: 310px;
+}
+
+.strip-3-job .container .row {
+  min-height: 310px;
+}
+
+.card-job-1-1 {
+  background: linear-gradient(
+    103.71deg,
+    #faf4ff 3.39%,
+    #faf4ff 3.89%,
+    #f8eeff 49.72%,
+    #ffecf3 98.01%
+  );
+}
+.card-job-2-2 {
+  background: linear-gradient(
+    121.26deg,
+    #fff8f7 0%,
+    #fff1e4 28.61%,
+    rgba(253, 215, 207, 0.68) 59.07%
+  );
+}
+.card-job-3-3 {
+  background: linear-gradient(
+    102.81deg,
+    rgba(255, 246, 222, 0.8) 7.48%,
+    rgba(238, 249, 255, 0.8) 56.63%,
+    rgba(255, 233, 214, 0.8) 100%
+  );
+}
+
+.card-3 {
+  min-height: 130px;
+}
