@@ -119,6 +119,10 @@ p {
   line-height: 24px;
 }
 
+h5 {
+  color: #3b414b;
+}
+
 h4 {
   font-weight: 400;
   font-size: 1.25em;
@@ -138,6 +142,7 @@ h3 {
 }
 
 h2 {
+  color: #3b414b;
   font-weight: 700;
   font-size: 2.25em;
   line-height: 40px;
