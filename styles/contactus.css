@@ -194,7 +194,7 @@
 }
 
 .map:hover {
-  outline: 4px solid var(--yellow) !important ;
+  outline: 1px solid var(--yellow) !important ;
   transition: all 0.1s !important;
   cursor: pointer;
 
