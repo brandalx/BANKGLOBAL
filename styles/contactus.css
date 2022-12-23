@@ -190,7 +190,7 @@
 
 .map {
   border-radius: 25px !important;
-  transition: all 0.1s;
+  transition: all 0.1s !important ;
 }
 
 .map:hover {
