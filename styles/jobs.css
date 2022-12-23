@@ -1,10 +1,17 @@
 .strip-1-job {
   min-height: 780px;
+  background: linear-gradient(
+    91.06deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(249, 244, 203, 0.486) 25.67%,
+    rgba(213, 236, 243, 0.582) 65.12%,
+    rgba(255, 255, 255, 0) 99.86%
+  );
 }
 
 .strip-1-job .container {
   min-height: 780px;
-  background: url("../img/Rectangle-7s1.png");
+  background-image: url("../img/Rectangle-7s1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
