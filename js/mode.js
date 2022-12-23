@@ -72,19 +72,19 @@ function init() {
     }
   });
 
-  const savedTheme = localStorage.getItem("theme");
-  if (savedTheme) {
-    // If a theme is saved, apply it
-    applyColors(savedTheme === "dark" ? lightColors : darkColors);
-    currentTheme = savedTheme;
-  } else {
-    // If no theme is saved, use the user's preferred color scheme
-    if (currentTheme === "dark") {
-      applyColors(lightColors);
-    } else {
-      applyColors(darkColors);
-    }
-  }
+  // const savedTheme = localStorage.getItem("theme");
+  // if (savedTheme) {
+  //   // If a theme is saved, apply it
+  //   applyColors(savedTheme === "dark" ? lightColors : darkColors);
+  //   currentTheme = savedTheme;
+  // } else {
+  //   // If no theme is saved, use the user's preferred color scheme
+  //   if (currentTheme === "dark") {
+  //     applyColors(lightColors);
+  //   } else {
+  //     applyColors(darkColors);
+  //   }
+  // }
 
   // button.addEventListener("click", () => {
   //   if (currentTheme === "light") {
