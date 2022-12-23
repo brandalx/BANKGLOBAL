@@ -154,6 +154,7 @@
   );
 }
 .card-job-2-2 {
+  border-radius: 15px;
   background: linear-gradient(
     121.26deg,
     #fff8f7 0%,
@@ -171,6 +172,7 @@
 }
 
 .card-3 {
+  border-radius: 15px;
   min-height: 130px;
 }
 
