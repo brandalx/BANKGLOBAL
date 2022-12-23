@@ -1,9 +1,17 @@
 .welcome {
+  background: linear-gradient(
+    90deg,
+    #eef5ff 2.14%,
+    #c6deff 42.99%,
+    #c1dbfe 79.67%,
+    #c5ddff 98.98%
+  );
   min-height: 100vh;
   display: flex;
   align-items: center;
 }
 .welcomeBlock {
+  background: white;
   padding: 100px 50px;
   transition: all 0.3s;
   border-radius: 15px;
