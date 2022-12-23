@@ -175,3 +175,27 @@
   transform: scale(1.025) !important;
   box-shadow: 18px 33px 49px -21px rgba(172, 172, 172, 0.452);
 }
+
+.strip-4-contact {
+  min-height: 820px;
+}
+
+.strip-4-contact .container {
+  min-height: 820px;
+}
+
+.strip-4-contact .container .row {
+  min-height: 820px;
+}
+
+.map {
+  transition: all 0.1s;
+}
+
+.map:hover {
+  outline: 4px solid var(--yellow) !important ;
+  transition: all 0.1s !important;
+  cursor: pointer;
+
+  box-shadow: 18px 33px 49px -21px rgba(172, 172, 172, 0.452);
+}
