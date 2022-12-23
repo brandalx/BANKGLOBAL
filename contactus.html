@@ -15,6 +15,8 @@
         document.head.appendChild(script);
       }
     </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/loading.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -271,7 +273,13 @@
             </h4>
           </div>
           <div class="col-lg-6 col-sm-12">
-            <img src="./img/Saly-2.png" alt="" />
+            <img
+              class="vibrate-1 st1"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+              src="./img/Saly-2.png"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -491,6 +499,9 @@
     <script src="js/mode.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js//date.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- </div> -->
   </body>
 </html>
