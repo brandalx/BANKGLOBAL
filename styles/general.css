@@ -39,7 +39,7 @@ body {
 }
 
 ::selection {
-  color: var(--whites);
+  color: white;
   background: var(--yellow);
 }
 .container {

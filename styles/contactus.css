@@ -1,0 +1,96 @@
+.strip-1-contact {
+  min-height: 380px;
+  background: linear-gradient(
+    89.71deg,
+    rgba(255, 225, 197, 0.21) -1.32%,
+    rgba(255, 194, 168, 0.26) 29.02%,
+    rgba(255, 191, 168, 0.44) 65.43%,
+    rgba(255, 191, 168, 0.67) 99.71%
+  );
+}
+
+.strip-1-contact img {
+  max-width: 100%;
+}
+
+.boa {
+  width: 150px !important;
+  height: 40px !important;
+}
+
+.strip-1-contact {
+  min-height: 780px;
+  background: linear-gradient(
+    91.06deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(249, 244, 203, 0.76) 25.67%,
+    rgba(213, 236, 243, 0.85) 72.12%,
+    rgba(255, 255, 255, 0) 99.86%
+  );
+}
+
+.strip-1-contact {
+  padding: 0 !important ;
+}
+
+.strip-1-contact .container .row {
+  min-height: 780px;
+  align-self: center;
+}
+
+.strip-2-contact {
+  max-height: 1600px;
+  display: flex;
+}
+.strip-2-contact .container {
+  max-height: 1600px;
+}
+
+.strip-2-contact .container .row {
+  max-height: 1600px;
+}
+
+.card-group {
+  border: none !important;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  border-radius: 15px !important;
+  border: 0 !important;
+  border-radius: 25px !important;
+}
+
+.card {
+  background: none;
+  text-align: center;
+
+  margin: 20px 20px;
+}
+
+.card:hover {
+  transition: all 0.3s !important;
+  cursor: pointer;
+  transform: scale(1.025) !important;
+  box-shadow: 18px 33px 49px -21px rgba(172, 172, 172, 0.452);
+}
+
+.card img {
+}
+
+.card img {
+  border-radius: 25px !important;
+  transition: all 0.3s !important;
+}
+
+.card img:hover {
+  transition: all 0.3s !important;
+  cursor: pointer;
+  transform: scale(1.045) !important;
+  box-shadow: 18px 33px 49px -21px rgba(151, 151, 151, 0.452);
+}
