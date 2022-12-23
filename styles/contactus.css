@@ -19,12 +19,12 @@
 }
 
 .strip-1-contact {
-  min-height: 780px;
+  min-height: 380px;
   background: linear-gradient(
     91.06deg,
     rgba(255, 255, 255, 0) 0%,
-    rgba(249, 244, 203, 0.76) 25.67%,
-    rgba(213, 236, 243, 0.85) 72.12%,
+    rgba(249, 212, 203, 0.76) 25.67%,
+    rgba(243, 229, 213, 0.85) 72.12%,
     rgba(255, 255, 255, 0) 99.86%
   );
 }
@@ -34,7 +34,7 @@
 }
 
 .strip-1-contact .container .row {
-  min-height: 780px;
+  min-height: 380px;
   align-self: center;
 }
 
