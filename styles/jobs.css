@@ -151,7 +151,7 @@
     #faf4ff 3.89%,
     #f8eeff 49.72%,
     #ffecf3 98.01%
-  );
+  ) !important;
 }
 .card-job-2-2 {
   border-radius: 15px;
@@ -160,7 +160,7 @@
     #fff8f7 0%,
     #fff1e4 28.61%,
     rgba(253, 215, 207, 0.68) 59.07%
-  );
+  ) !important;
 }
 .card-job-3-3 {
   background: linear-gradient(
@@ -168,7 +168,7 @@
     #fff8f7 0%,
     #fff1e4 28.61%,
     rgba(253, 215, 207, 0.68) 59.07%
-  );
+  ) !important;
 }
 
 .card-3 {
