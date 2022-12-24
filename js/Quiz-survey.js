@@ -158,7 +158,7 @@ function quiz() {
     default:
       button.removeAttribute("data-bs-target");
       button.removeAttribute("data-bs-toggle");
-      question.style.color = "var(--headingMain)";
+
       counterClick = 0;
       counterOpt1 = 0;
       counterOpt2 = 0;
