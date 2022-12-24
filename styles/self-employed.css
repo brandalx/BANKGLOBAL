@@ -1,0 +1,23 @@
+.strip-1-self img {
+  max-width: 100%;
+}
+
+.strip-1-self {
+  min-height: 380px;
+  background: linear-gradient(
+    91.06deg,
+    rgba(227, 255, 230, 0) 0%,
+    #81ff8748 25.67%,
+    #c0ff6e4f 79.12%,
+    rgba(231, 255, 222, 0) 99.86%
+  );
+}
+
+.strip-1-self {
+  padding: 0 !important ;
+}
+
+.strip-1-self .container .row {
+  min-height: 380px;
+  align-self: center;
+}
