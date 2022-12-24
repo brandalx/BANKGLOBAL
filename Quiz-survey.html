@@ -362,11 +362,53 @@
                 data-aos="fade-right"
                 data-aos-duration="1200"
                 class="mb-sm-3 mb-lg-0 mb-3 text-center align-self-center"
-                data-bs-target="#exampleModal"
-                data-bs-toggle="modal"
               >
                 Next
               </button>
+            </div>
+          </div>
+          <div
+            style="position: absolute"
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  We would like to hear from you how much you satisfied from our
+                  online banking service. It won't take a long time.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    type="button"
+                    class="btn btn-primary"
+                    style="background: var(--yellow); border: none"
+                  >
+                    OK
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
