@@ -353,9 +353,7 @@
       </div>
     </div>
 
-    <div
-      class="strip-3-contact container-fluid text-center mb-3 mt-4 mt-lg-5 mt-sm-4"
-    >
+    <div class="strip-3-contact container-fluid mb-3 mt-4 mt-lg-5 mt-sm-4">
       <div class="container">
         <div
           class="row flex-column align-content-center justify-content-center"
@@ -364,7 +362,7 @@
             <h3
               data-aos="fade-up"
               data-aos-duration="1000"
-              class="h3-2 mb-sm-1 mb-lg-4 mt-lg-3 text-center text-center mb-1 mt-5"
+              class="h3-2 mb-sm-1 mb-lg-4 mt-lg-3 text-center mb-1 mt-5"
             >
               Make an appointment with us
             </h3>
@@ -392,7 +390,7 @@
             <p
               data-aos="fade-up"
               data-aos-duration="1000"
-              class="text-center mb-3 mt-5"
+              class="mb-3 mt-5 text-center"
             >
               Leave a request on the site
             </p>
@@ -401,9 +399,12 @@
               style="border: solid 1px var(--yellow)"
             ></div>
 
-            <form data-aos="fade-up" data-aos-duration="1000">
+            <form data-aos="fade-up" data-aos-duration="1000" class="text-left">
               <div class="mb-2">
-                <label class="form-label" style="color: #afafaf" for="phone"
+                <label
+                  class="form-label ms-2"
+                  style="color: #afafaf"
+                  for="phone"
                   >Phone number to call</label
                 >
                 <input
@@ -415,6 +416,21 @@
                   value=""
                 />
               </div>
+              <div class="form-group mb-4 mt-3">
+                <label
+                  class="ms-2 mb-2"
+                  style="color: #afafaf"
+                  for="exampleFormControlTextarea1"
+                  >Enter your question</label
+                >
+                <textarea
+                  class="form-control"
+                  id=""
+                  rows="4"
+                  placeholder="Provide your question here"
+                ></textarea>
+              </div>
+
               <button
                 data-aos="fade-up"
                 data-aos-duration="8000"
