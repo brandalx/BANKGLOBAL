@@ -9,7 +9,7 @@ document.querySelectorAll(".form-quiz-option").forEach(function (element) {
   });
 });
 
-let counterClick = 0;
+let counterClick = 1;
 let counterOpt1 = 0;
 let counterOpt2 = 0;
 let counterOpt3 = 0;
@@ -48,14 +48,14 @@ function quiz() {
   //button
   let button = document.getElementById("next");
   counterClick++;
-  let i = counterClick + 1;
+  let i = counterClick;
 
-  if (i > 9) {
+  if (i > 8) {
     i == 0;
 
     headsL.innerHTML = `QUIZ - Survey`;
   } else {
-    headsL.innerHTML = `Question ${i} of 9`;
+    headsL.innerHTML = `Question ${i} of 8`;
   }
 
   document.querySelectorAll(".form-check-input").forEach(function (input) {
@@ -126,6 +126,16 @@ function quiz() {
       break;
 
     case 8:
+      question.innerHTML = "Thank you! Press finish to end the survey";
+
+      let remove = document.querySelectorAll("#toremove");
+
+      remove.forEach(function (element) {
+        if (element.id !== "next") {
+          element.style.display = "none";
+        }
+      });
+
       button.setAttribute("data-bs-target", "#exampleModal");
       button.setAttribute("data-bs-toggle", "modal");
       if (
@@ -164,7 +174,11 @@ function quiz() {
       }
 
       button.innerHTML = "Finish?";
+      remove = document.querySelectorAll("#toremove");
 
+      remove.forEach(function (element) {
+        element.style.display = "";
+      });
       break;
 
     default:
