@@ -52,7 +52,8 @@
 .form-quiz-option-wrapper {
   border: solid 1px lightslategray;
 }
-.form-check {
+.formcheck {
+  color: #384149 !important;
   min-height: 60px;
   width: 100%;
   border: 1px solid var(--yellow);
