@@ -63,8 +63,8 @@
 }
 
 .vibrate-1 {
-  -webkit-animation: vibrate-1 5s ease-in-out infinite both;
-  animation: vibrate-1 5s ease-in-out infinite both;
+  -webkit-animation: vibrate-1 8s ease-in-out infinite both;
+  animation: vibrate-1 8s ease-in-out infinite both;
 }
 
 .strip-1-contact img {
