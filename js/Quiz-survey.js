@@ -122,7 +122,7 @@ function quiz() {
         counterOpt1 > counterOpt4
       ) {
         modalhead.innerHTML =
-          "We are thrilled to hear that you had a fantastic experience with our online banking services.";
+          "🎉🎉🎉 We are thrilled to hear that you had a fantastic experience with our online banking services.";
 
         modalparagraph.innerHTML =
           "We are committed to providing top-quality service and will continue to work on continuous improvement to ensure that our customers have the best possible experience with us.";
@@ -132,7 +132,7 @@ function quiz() {
         counterOpt2 > counterOpt4
       ) {
         modalhead.innerHTML =
-          "Thank you for taking the time to share your thoughts about our online banking services.";
+          "😊😊😊 Thank you for taking the time to share your thoughts about our online banking services.";
         modalparagraph.innerHTML =
           "We value all feedback and will use it to continue improving and updating our offerings to better serve our customers.";
       } else if (
@@ -141,12 +141,12 @@ function quiz() {
         counterOpt3 > counterOpt4
       ) {
         modalhead.innerHTML =
-          "Thank you for your feedback on our online banking services. We are glad to hear that you were satisfied with your experience.";
+          "😀😀😀 Thank you for your feedback on our online banking services. We are glad to hear that you were satisfied with your experience.";
         modalparagraph.innerHTML =
           "We strive to provide reliable and efficient service to all of our customers, and we appreciate your feedback as we continue to work on improving and updating our offerings.";
       } else {
         modalhead.innerHTML =
-          "We apologize for the subpar experience you had with our online banking services.";
+          "😔😔😔We apologize for the subpar experience you had with our online banking services.";
         modalparagraph.innerHTML =
           "We understand how important it is to have reliable and efficient service, and we will work diligently on continuous improvement to ensure that our customers receive the best possible service in the future.";
       }
