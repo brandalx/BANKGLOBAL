@@ -18,6 +18,12 @@ let counterOpt4 = 0;
 function quiz() {
   //input
 
+  remove = document.querySelectorAll("#toremove");
+
+  remove.forEach(function (element) {
+    element.style.display = "";
+  });
+
   let option1 = document.querySelector("#option_1");
   let option2 = document.querySelector("#option_2");
   let option3 = document.querySelector("#option_3");
@@ -174,11 +180,7 @@ function quiz() {
       }
 
       button.innerHTML = "Finish?";
-      remove = document.querySelectorAll("#toremove");
 
-      remove.forEach(function (element) {
-        element.style.display = "";
-      });
       break;
 
     default:
