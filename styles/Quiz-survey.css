@@ -1,0 +1,36 @@
+.strip-2-quiz {
+  min-height: 100vh;
+}
+
+.strip-2-quiz .container {
+  min-height: 100vh;
+}
+
+.strip-2-quiz .container .row {
+  min-height: 100vh;
+}
+
+.card-quiz {
+  border: 1px solid white !important;
+}
+
+.card-quiz:hover {
+}
+
+.form-quiz-option-wrapper {
+  border: solid 1px lightslategray;
+}
+.form-check {
+  min-height: 50px;
+  width: 100%;
+  border: 1px solid var(--yellow);
+  border-radius: 10px;
+}
+
+.form-quiz-option {
+  transition: all 0.3s;
+}
+
+.form-quiz-option:hover {
+  background: rgba(202, 242, 255, 0.541);
+}

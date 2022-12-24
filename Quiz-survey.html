@@ -4,26 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <script>
-      scroll();
-      displayDate();
-      function init() {
-        var script = document.createElement("script");
-        script.src = "./js/mode.js";
-        script.async = true;
-        document.head.appendChild(script);
-      }
-    </script>
-
-    <script src="./js/Quiz-survey.js"></script>
-
+    <meta property="og:image" content="./img/1928.jpg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+
     <script src="./js/loading.js"></script>
     <link href="/src/hamburgers-master/dist/hamburgers.css" rel="stylesheet" />
     <link
@@ -267,18 +255,6 @@
             <h4 class="">
               Say goodbye to long lines and inconvenient banking hours.
             </h4>
-            <a href="#id_quiz">
-              <button
-                data-aos="fade-right"
-                data-aos-duration="1200"
-                class="mb-sm-3 mb-lg-0 mb-3"
-                data-bs-target="#exampleModal"
-                data-bs-toggle="modal"
-                type="button"
-              >
-                Start Quiz - Survey
-              </button></a
-            >
           </div>
           <div class="col-lg-6 col-sm-12">
             <img src="./img/picture1.jpg" alt="" />
@@ -287,61 +263,110 @@
       </div>
     </div>
 
-    <div class="container-fluid strip-2-quiz" style="min-height: 800px">
-      <div class="container text-center mx-auto mt-5">
-        <!-- Button trigger modal -->
-
-        <!-- Vertically centered modal -->
-
-        <!-- Modal -->
+    <div class="container-fluid strip-2-quiz">
+      <div class="container">
         <div
-          class="modal fade"
-          id="exampleModal"
-          tabindex="-1"
-          aria-labelledby="exampleModalLabel"
-          aria-hidden="true"
+          class="row justify-content-center flex-column align-content-center text-center"
         >
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">
-                  Do you mind to take a little Quiz - Survey?
-                </h1>
-                <button
-                  type="button"
-                  class="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                ></button>
-              </div>
-              <div class="modal-body">
-                We would like to hear from you how much you satisfied from our
-                online banking service. It won't take a long time.
-              </div>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  data-bs-dismiss="modal"
+          <div class="col-12">
+            <h2 id="id_question">
+              How satisfied are you with the online banking services offered by
+              Bank Global?
+            </h2>
+            <div class="col-6-lg col-12 col-sm-12 mx-auto">
+              <form
+                action="#"
+                id="the_form"
+                class="d-flex justify-content-start align-items-start flex-column w-100"
+              >
+                <div
+                  class="form-check w-100 text-start mb-4 d-flex align-items-center form-quiz-option"
                 >
-                  Close
-                </button>
-                <button
-                  type="button"
-                  class="btn btn-primary"
-                  style="background: var(--yellow); border: none"
+                  <input
+                    class="form-check-input ms-1 me-2 mb-1"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="option_1"
+                    value="1"
+                  />
+                  <label
+                    id="text-option-1"
+                    class="form-check-label p_bold"
+                    for="radio1"
+                    >Very satisfied</label
+                  >
+                </div>
+                <div
+                  class="form-check w-100 text-start mb-4 d-flex align-items-center form-quiz-option"
                 >
-                  Lets start
-                </button>
-              </div>
+                  <input
+                    class="form-check-input ms-1 me-2 mb-1"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="option_2"
+                    value="2"
+                  />
+
+                  <label
+                    id="text-option-2"
+                    class="form-check-label p_bold"
+                    for="radio2"
+                    >Satisfied</label
+                  >
+                </div>
+                <div
+                  class="form-check w-100 text-start mb-4 d-flex align-items-center form-quiz-option"
+                >
+                  <input
+                    class="form-check-input ms-1 me-2 mb-1"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="option_3"
+                    value="3"
+                  />
+
+                  <label
+                    id="text-option-1"
+                    class="form-check-label p_bold"
+                    for="radio3"
+                  >
+                    Neutral</label
+                  >
+                </div>
+                <div
+                  class="form-check w-100 text-start mb-4 d-flex align-items-center form-quiz-option"
+                >
+                  <input
+                    class="form-check-input ms-1 me-2 mb-1"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="option_4"
+                    value="4"
+                  />
+
+                  <label
+                    id="text-option-1"
+                    class="form-check-label p_bold"
+                    for="radio4"
+                    >Unsatisfied</label
+                  >
+                </div>
+              </form>
+              <button
+                onclick="quiz()"
+                type="submit"
+                data-aos="fade-right"
+                data-aos-duration="1200"
+                class="mb-sm-3 mb-lg-0 mb-3 text-center align-self-center"
+                data-bs-target="#exampleModal"
+                data-bs-toggle="modal"
+              >
+                Next
+              </button>
             </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="container-fluid">
-      <div class="container"></div>
     </div>
 
     <footer class="container-fluid page-footer pb-sm-5 pb-5 pb-lg-0">
@@ -485,8 +510,7 @@
       </div>
     </footer>
     <script src="js/mode.js"></script>
-    <script src="js/scroll.js"></script>
-    <script src="js//date.js"></script>
+    <script src="./js/Quiz-survey.js"></script>
     <!-- </div> -->
   </body>
 </html>
