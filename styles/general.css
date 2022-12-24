@@ -190,7 +190,8 @@ h1 {
 }
 
 button {
-  border: none;
+  /* border: none; */
+  border: 2px solid var(--paragraphMain);
   border-radius: 8px;
   font-weight: 400;
   font-size: 1em;
@@ -204,10 +205,17 @@ button {
 
 button:hover {
   transition: all 0.3s !important;
-  border: 2px solid var(--paragraphMain);
+
   color: var(--whites);
-  border: 2px solid var(--paragraphMain);
+
   background: var(--paragraphMain);
+}
+
+.button_accordio {
+}
+
+.button_accordio:hover {
+  background: rgba(220, 220, 255, 0.301) !important ;
 }
 
 .button_accent {
