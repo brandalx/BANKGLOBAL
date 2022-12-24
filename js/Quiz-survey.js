@@ -42,6 +42,8 @@ function quiz() {
   let answer3 = document.querySelector("#text-option-3");
   let answer4 = document.querySelector("#text-option-4");
   // let input = element.querySelector(".form-check-input");
+  //button
+  let button = document.getElementById("next");
   counterClick++;
   document.querySelectorAll(".form-check-input").forEach(function (input) {
     input.checked = false;
@@ -139,93 +141,25 @@ function quiz() {
         question.style.color = "green";
       }
 
+      button.innerHTML = "Start Again?";
+
       break;
 
     default:
+      question.style.color = "var(--headingMain)";
       counterClick = 0;
       counterOpt1 = 0;
       counterOpt2 = 0;
       counterOpt3 = 0;
       counterOpt4 = 0;
+      question.innerHTML =
+        "How satisfied are you with the online banking services offered by Bank Global?";
+
+      answer1.innerHTML = "Very satisfied";
+      answer2.innerHTML = "Satisfied";
+      answer3.innerHTML = "Neutral";
+      answer4.innerHTML = "Unsatisfied";
+
       break;
   }
 }
-// });
-
-// let textOption1 = document.getElementById("text-option-1").innerHTML;
-// let textOption2 = document.getElementById("text-option-2").innerHTML;
-// let textOption3 = document.getElementById("text-option-3").innerHTML;
-// let textOption4 = document.getElementById("text-option-4").innerHTML;
-// if ((option_1, (input.checked = true))) {
-//     textOption1 = "Very satisfied";
-//   }
-
-// function quiz() {
-//   let input = element.querySelector(".form-check-input");
-//   counterClick++;
-
-//   if (counterClick == 1) {
-//     question =
-//       "Have you had any issues with the security measures in place for online banking with Bank Global?";
-//     answer1 = "No issues at all";
-//     answer2 = "A few minor issues";
-//     answer3 = "Moderate issues";
-//     answer4 = "Major issues";
-//   }
-
-//   if (counterClick == 2) {
-//     question =
-//       "How easy is it for you to find the information you need on the Bank Global website?";
-//     answer1 = "Very easy";
-//     answer2 = " Somewhat easy";
-//     answer3 = "Neutral";
-//     answer4 = "Difficult";
-//   }
-
-//   if (counterClick == 3) {
-//     question =
-//       "How helpful have the customer service representatives at Bank Global been when you've had questions or issues?";
-//     answer1 = "Extremely helpful";
-//     answer2 = "Somewhat helpful";
-//     answer3 = "Neutral";
-//     answer4 = "Not helpful at all";
-//   }
-
-//   if (counterClick == 4) {
-//     question =
-//       "How satisfied are you with the loan options available through Bank Global?";
-//     answer1 = "Very satisfied";
-//     answer2 = "Satisfied";
-//     answer3 = "Neutral";
-//     answer4 = "Unsatisfied";
-//   }
-
-//   if (counterClick == 5) {
-//     question =
-//       "Have you had any issues with the authentication process for accessing your online banking account with Bank Global?";
-//     answer1 = "No issues at all";
-//     answer2 = "A few minor issues";
-//     answer3 = "Moderate issues";
-//     answer4 = "Major issues";
-//   }
-
-//   if (counterClick == 6) {
-//     question =
-//       "How satisfied are you with the online resources available for self-employed individuals through Bank Global?";
-//     answer1 = "Very satisfied";
-//     answer2 = "Satisfied";
-//     answer3 = "Neutral";
-//     answer4 = "Unsatisfied";
-//   }
-
-//   if (counterClick == 7) {
-//     question =
-//       "How satisfied are you with the online resources available for private clients through Bank Global?";
-//     answer1 = "Very satisfied";
-//     answer2 = "Satisfied";
-//     answer3 = "Neutral";
-//     answer4 = "Unsatisfied";
-//   }
-// }
-
-// your code here
