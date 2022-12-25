@@ -10,16 +10,16 @@
       // check if the redirect function has been executed before
       if (localStorage.getItem("redirectExecuted") !== "true") {
         // redirect the user to the preloader page after 3.5 seconds
-        setTimeout(redirectToPreloader, 1);
+        localStorage.setItem("redirectExecuted", "true");
+        setTimeout(redirectToPreloader, 0);
 
         // store a value indicating that the redirect function has been executed in local storage
-        localStorage.setItem("redirectExecuted", "true");
       }
 
       setInterval(function () {
         // check if it's time to add the redirect function back to the page
         var removeTime = localStorage.getItem("removeTime");
-        if (Date.now() > removeTime + 15000) {
+        if (Date.now() > removeTime + 5000) {
           // add the redirect function back to the page
           window.onload = redirectToPreloader;
 
