@@ -10,7 +10,7 @@
       // check if the redirect function has been executed before
       if (localStorage.getItem("redirectExecuted") !== "true") {
         // redirect the user to the preloader page after 3.5 seconds
-        setTimeout(redirectToPreloader, 0);
+        setTimeout(redirectToPreloader, 1);
 
         // store a value indicating that the redirect function has been executed in local storage
         localStorage.setItem("redirectExecuted", "true");
