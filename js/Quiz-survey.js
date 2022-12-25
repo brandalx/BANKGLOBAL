@@ -179,7 +179,7 @@ function quiz() {
           "We understand how important it is to have reliable and efficient service, and we will work diligently on continuous improvement to ensure that our customers receive the best possible service in the future.";
       }
 
-      button.innerHTML = "Finish?";
+      button.innerHTML = "Finish";
 
       break;
 

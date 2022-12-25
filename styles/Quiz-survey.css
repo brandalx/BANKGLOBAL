@@ -52,7 +52,14 @@
 .form-quiz-option-wrapper {
   border: solid 1px lightslategray;
 }
+
+.formcheck:hover {
+  transition: all 0.3s !important;
+  transform: scale(1.015) !important ;
+}
+
 .formcheck {
+  transition: all 0.3s !important;
   color: #384149 !important;
   min-height: 60px;
   width: 100%;
