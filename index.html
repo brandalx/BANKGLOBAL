@@ -1,9 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      function redirectToPreloader() {
+        // redirect the user to the preloader page
+        window.location.href = "./preloader.html";
+      }
+
+      // check if the redirect function has been executed before
+      if (localStorage.getItem("redirectExecuted") !== "true") {
+        // redirect the user to the preloader page after 3.5 seconds
+        setTimeout(redirectToPreloader, 3500);
+
+        // store a value indicating that the redirect function has been executed in local storage
+        localStorage.setItem("redirectExecuted", "true");
+      }
+
+      setInterval(function () {
+        // check if it's time to add the redirect function back to the page
+        var removeTime = localStorage.getItem("removeTime");
+        if (Date.now() > removeTime + 15000) {
+          // add the redirect function back to the page
+          window.onload = redirectToPreloader;
+
+          // reset local storage value
+          localStorage.removeItem("removeTime");
+        } else if (localStorage.getItem("redirectRemoved") !== "true") {
+          // remove the redirect function from the page
+          window.onload = null;
+
+          // store current time and a value indicating that the redirect function has been removed in local storage
+          localStorage.setItem("removeTime", Date.now());
+          localStorage.setItem("redirectRemoved", "true");
+        }
+      }, 1000); // check every second
+    </script>
+
+    <!-- <script>
+      setTimeout(function () {
+        window.location.href = "./preloader.html";
+      }, 3500);
+    </script> -->
 
     <script>
       scroll();
@@ -16,6 +53,7 @@
         document.head.appendChild(script);
       }
     </script>
+
     <script src="./js/loading.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,7 +61,7 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <link href="/src/hamburgers-master/dist/hamburgers.css" rel="stylesheet" />
+
     <link
       rel="stylesheet"
       href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
@@ -54,6 +92,7 @@
     <script src="./js/scroll.js"></script>
     <script src="./js/currency.js"></script>
   </head>
+
   <body onload="init()" class="">
     <div id="loadingLine"></div>
 
@@ -1104,6 +1143,7 @@
     <script>
       AOS.init();
     </script>
+
     <!-- </div> -->
   </body>
 </html>
