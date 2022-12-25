@@ -11,13 +11,15 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/loading.js"></script>
     <link href="/src/hamburgers-master/dist/hamburgers.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -251,14 +253,24 @@
           class="row align-items-center mx-sm-auto text-sm-center text-lg-center mx-sm-auto text-center"
         >
           <div class="col-lg-5 col-sm-12 col-12 order-sm-1 order-1 order-lg-0">
-            <h1 class="text-focus-in slide-in-bottom">Quiz - Survey</h1>
-            <h4 class="">
+            <h1
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              class="text-focus-in slide-in-bottom"
+            >
+              Quiz - Survey
+            </h1>
+            <h4 data-aos="fade-right" data-aos-duration="1200" class="">
               We would appreciate it if you could take a short survey to help us
               improve our service. It won't take long and will be very helpful
               for us
             </h4>
           </div>
-          <div class="col-lg-6 col-sm-12">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="800"
+            class="col-lg-6 col-sm-12"
+          >
             <img class="vibrate-1 st1" src="./img/Saly-26.png" alt="" />
           </div>
         </div>
@@ -272,6 +284,8 @@
         >
           <div class="col-8-lg col-sm-12 col-12">
             <h3
+              data-aos="fade-up"
+              data-aos-duration="1000"
               id="headL"
               style="color: var(--yellow)"
               class="mb-sm-4 mb-4 mb-lg-4 mt-lg-3"
@@ -279,6 +293,8 @@
               QUIZ - Survey
             </h3>
             <h3
+              data-aos="fade-up"
+              data-aos-duration="1000"
               class="mb-5 h3-2"
               style="color: #2c3136 !important"
               id="id_question"
@@ -293,6 +309,8 @@
                 class="d-flex justify-content-start align-items-start flex-column w-100"
               >
                 <div
+                  data-aos="fade-up"
+                  data-aos-duration="800"
                   class="form-check formcheck w-100 text-start mb-4 d-flex align-items-center form-quiz-option"
                 >
                   <input
@@ -310,6 +328,8 @@
                   >
                 </div>
                 <div
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
                   class="form-check formcheck w-100 text-start mb-4 d-flex align-items-center form-quiz-option"
                 >
                   <input
@@ -328,6 +348,8 @@
                   >
                 </div>
                 <div
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
                   class="form-check formcheck w-100 text-start mb-4 d-flex align-items-center form-quiz-option"
                 >
                   <input
@@ -347,6 +369,8 @@
                   >
                 </div>
                 <div
+                  data-aos="fade-up"
+                  data-aos-duration="1400"
                   class="form-check formcheck w-100 text-start mb-4 d-flex align-items-center form-quiz-option"
                 >
                   <input
@@ -367,6 +391,8 @@
               </form>
             </div>
             <button
+              data-aos="fade-up"
+              data-aos-duration="8000"
               id="next"
               onclick="quiz()"
               type="submit"
@@ -538,7 +564,7 @@
               class=" "
               href="./Quiz-survey.html"
             >
-              Quiz - survey</a
+              Quiz - Survey</a
             >
           </div>
           <div class="col-lg-4 col-sm-6 mb-sm-5">
@@ -567,6 +593,10 @@
     </footer>
     <script src="js/mode.js"></script>
     <script src="./js/Quiz-survey.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
     <!-- </div> -->
   </body>
 </html>
