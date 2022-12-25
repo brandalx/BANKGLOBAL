@@ -23,8 +23,10 @@
           // add the redirect function back to the page
           window.onload = redirectToPreloader;
 
-          // reset local storage value
+          // reset local storage values
           localStorage.removeItem("removeTime");
+          localStorage.removeItem("redirectRemoved");
+          localStorage.removeItem("redirectExecuted");
         } else if (localStorage.getItem("redirectRemoved") !== "true") {
           // remove the redirect function from the page
           window.onload = null;
