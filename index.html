@@ -1,43 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script>
-      function redirectToPreloader() {
-        // redirect the user to the preloader page
-        window.location.href = "./preloader.html";
-      }
-
-      // check if the redirect function has been executed before
-      if (localStorage.getItem("redirectExecuted") !== "true") {
-        // redirect the user to the preloader page after 3.5 seconds
-        localStorage.setItem("redirectExecuted", "true");
-        setTimeout(redirectToPreloader, 0);
-
-        // store a value indicating that the redirect function has been executed in local storage
-      }
-
-      setInterval(function () {
-        // check if it's time to add the redirect function back to the page
-        var removeTime = localStorage.getItem("removeTime");
-        if (Date.now() > removeTime + 5000) {
-          // add the redirect function back to the page
-          window.onload = redirectToPreloader;
-
-          // reset local storage values
-          localStorage.removeItem("removeTime");
-          localStorage.removeItem("redirectRemoved");
-          localStorage.removeItem("redirectExecuted");
-        } else if (localStorage.getItem("redirectRemoved") !== "true") {
-          // remove the redirect function from the page
-          window.onload = null;
-
-          // store current time and a value indicating that the redirect function has been removed in local storage
-          localStorage.setItem("removeTime", Date.now());
-          localStorage.setItem("redirectRemoved", "true");
-        }
-      }, 1000); // check every second
-    </script>
-
     <!-- <script>
       setTimeout(function () {
         window.location.href = "./preloader.html";
@@ -1144,6 +1107,42 @@
 
     <script>
       AOS.init();
+    </script>
+    <script>
+      function redirectToPreloader() {
+        // redirect the user to the preloader page
+        window.location.href = "./preloader.html";
+      }
+
+      // check if the redirect function has been executed before
+      if (localStorage.getItem("redirectExecuted") !== "true") {
+        // redirect the user to the preloader page after 3.5 seconds
+        localStorage.setItem("redirectExecuted", "true");
+        setTimeout(redirectToPreloader, 0);
+
+        // store a value indicating that the redirect function has been executed in local storage
+      }
+
+      setInterval(function () {
+        // check if it's time to add the redirect function back to the page
+        var removeTime = localStorage.getItem("removeTime");
+        if (Date.now() > removeTime + 5000) {
+          // add the redirect function back to the page
+          window.onload = redirectToPreloader;
+
+          // reset local storage values
+          localStorage.removeItem("removeTime");
+          localStorage.removeItem("redirectRemoved");
+          localStorage.removeItem("redirectExecuted");
+        } else if (localStorage.getItem("redirectRemoved") !== "true") {
+          // remove the redirect function from the page
+          window.onload = null;
+
+          // store current time and a value indicating that the redirect function has been removed in local storage
+          localStorage.setItem("removeTime", Date.now());
+          localStorage.setItem("redirectRemoved", "true");
+        }
+      }, 1000); // check every second
     </script>
 
     <!-- </div> -->
