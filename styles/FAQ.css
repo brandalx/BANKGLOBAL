@@ -23,7 +23,7 @@
 }
 
 .strip-2-faq {
-  background: linear-gradient(180deg, #e2f4dc 0%, #f4fdf3 100%);
+  background: linear-gradient(180deg, #bfffaac4 0%, #b6ffd093 100%);
 
   min-height: 440px;
 }
@@ -44,7 +44,7 @@
   transition: all 0.3s !important;
   cursor: pointer;
   transform: scale(1.045);
-  box-shadow: 18px 33px 49px -21px #c0c0c0c5;
+  box-shadow: 18px 33px 49px -21px #99999981;
 }
 
 .strip-3-faq {
@@ -56,4 +56,14 @@
 
 .strip-3-faq .container .row {
   min-height: 410px;
+}
+
+.strip-4-faq {
+  min-height: 450px;
+}
+.strip-4-faq .container {
+  min-height: 450px;
+}
+.strip-4-faq .container .row {
+  min-height: 450px;
 }
