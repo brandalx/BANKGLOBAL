@@ -17,6 +17,8 @@
     </script>
     <meta property="og:image" content="./img/1929.jpg" />
     <script src="./js/loading.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -280,8 +282,8 @@
             </h4>
           </div>
           <div
-            data-aos="fade-right"
-            data-aos-duration="1200"
+            data-aos="fade-left"
+            data-aos-duration="800"
             class="col-lg-6 col-sm-12"
           >
             <img class="vibrate-1 st1" src="./img/Saly-11.png" alt="" />
@@ -298,6 +300,8 @@
             class="col-lg-10 col-sm-12 col-12 align-items-center d-flex justify-content-between"
           >
             <input
+              data-aos="fade-right"
+              data-aos-duration="800"
               class="form-control job_search border-0 rounded-4 mx-auto"
               type="text"
               id="search"
@@ -311,11 +315,13 @@
           </div>
 
           <div
+            data-aos="fade-up"
+            data-aos-duration="800"
             class="text-center input-group-append mx-auto col-lg-2 col-sm-6 col-6 align-items-center d-flex justify-content-center"
           >
             <button class="btn_job" type="submit">Search</button>
           </div>
-          <div>
+          <div data-aos="fade-right" data-aos-duration="800">
             <p class="text-center mt-3 p_small">
               For example:
               <a href="./contactus.html">
@@ -855,6 +861,9 @@
     <script src="js/mode.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js//date.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- </div> -->
   </body>
 </html>
