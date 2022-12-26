@@ -1,0 +1,35 @@
+.strip-1-faq img {
+  max-width: 100%;
+}
+
+.strip-1-faq {
+  min-height: 380px;
+  background: linear-gradient(
+    91.06deg,
+    rgba(227, 255, 230, 0) 0%,
+    #e7eca167 25.67%,
+    #ff9dc354 79.12%,
+    rgba(231, 255, 222, 0) 99.86%
+  );
+}
+
+.strip-1-faq {
+  padding: 0 !important ;
+}
+
+.strip-1-faq .container .row {
+  min-height: 380px;
+  align-self: center;
+}
+
+.strip-2-faq img {
+}
+
+.strip-2-faq {
+}
+
+.strip-2-faq {
+}
+
+.strip-2-faq .container .row {
+}
