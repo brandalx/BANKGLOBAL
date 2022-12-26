@@ -119,6 +119,7 @@ p {
 }
 
 .p_bold {
+  color: #3b414b;
   font-weight: 700;
   font-size: 1em;
   line-height: 24px;
