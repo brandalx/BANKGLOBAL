@@ -46,3 +46,14 @@
   transform: scale(1.045);
   box-shadow: 18px 33px 49px -21px #c0c0c0c5;
 }
+
+.strip-3-faq {
+  min-height: 410px;
+}
+.strip-3-faq .container {
+  min-height: 410px;
+}
+
+.strip-3-faq .container .row {
+  min-height: 410px;
+}
