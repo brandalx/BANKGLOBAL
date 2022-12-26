@@ -22,14 +22,27 @@
   align-self: center;
 }
 
-.strip-2-faq img {
-}
-
 .strip-2-faq {
-}
+  background: linear-gradient(180deg, #e2f4dc 0%, #f4fdf3 100%);
 
-.strip-2-faq {
+  min-height: 440px;
+}
+.strip-2-faq .container {
+  min-height: 440px;
 }
 
 .strip-2-faq .container .row {
+  min-height: 440px;
+}
+
+.strip-2-faq .container .row img {
+  transition: all 0.3s;
+  border-radius: 15px;
+  max-width: 100%;
+}
+.strip-2-faq .container .row img:hover {
+  transition: all 0.3s !important;
+  cursor: pointer;
+  transform: scale(1.045);
+  box-shadow: 18px 33px 49px -21px #c0c0c0c5;
 }
