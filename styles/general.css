@@ -142,12 +142,14 @@ h4 {
 }
 
 h3 {
+  color: #3b414b;
   font-weight: 400;
   font-size: 1.625;
   line-height: 26px;
 }
 
 .h3-2 {
+  color: #3b414b;
   font-weight: 700;
   font-size: 1.625;
   line-height: 32px;
