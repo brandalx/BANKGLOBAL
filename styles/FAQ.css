@@ -23,7 +23,7 @@
 }
 
 .strip-2-faq {
-  background: linear-gradient(180deg, #bfffaac4 0%, #b6ffd093 100%);
+  background: #f4feff !important;
 
   min-height: 440px;
 }
