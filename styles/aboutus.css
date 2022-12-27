@@ -1,0 +1,106 @@
+.strip-1-about img {
+  max-width: 100%;
+}
+
+.strip-1-about {
+  min-height: 380px;
+  background: linear-gradient(to left, #fff1eb 0%, #ace0f9 100%);
+}
+
+.strip-1-about .container {
+  padding: 0 !important ;
+}
+
+.strip-1-about .container .row {
+  min-height: 380px;
+  align-self: center;
+}
+
+.strip-2-about {
+  min-height: 400px;
+  background: linear-gradient(120deg, #a1c4fd62 0%, #c2e9fb52 100%);
+}
+.strip-2-about .container {
+  min-height: 400px;
+  padding: 0 !important ;
+}
+
+.strip-2-about .container .row {
+  min-height: 400px;
+  align-self: center;
+}
+
+.strip-2-about .container .row img {
+  border-radius: 15px;
+
+  transition: all 0.3s !important;
+  max-width: 100%;
+}
+
+.strip-2-about .container .row img:hover {
+  transition: all 0.3s !important;
+  cursor: pointer;
+  transform: scale(1.045);
+  box-shadow: 18px 33px 49px -21px #99999981;
+}
+
+.strip-3-about {
+  min-height: 610px;
+  background: linear-gradient(151.73deg, #c8fff259 -9.24%, #ceffe57c 108.65%);
+}
+.strip-3-about .container {
+  min-height: 610px;
+  padding: 0 !important ;
+}
+
+.strip-3-about .container .row {
+  min-height: 610px;
+  align-self: center;
+}
+
+.strip-3-about .container .row img {
+  border-radius: 15px;
+
+  transition: all 0.3s !important;
+  max-height: 400px;
+}
+
+.strip-3-about .container .row img:hover {
+  transition: all 0.3s !important;
+  cursor: pointer;
+  transform: scale(1.045);
+  box-shadow: 18px 33px 49px -21px #99999981;
+}
+
+.strip-4-about {
+  min-height: 400px;
+  background-image: linear-gradient(
+    to left,
+    #ddfdcb8c 0%,
+    #fdcbf18c 1%,
+    #e9e6de7e 100%
+  );
+}
+.strip-4-about .container {
+  min-height: 400px;
+  padding: 0 !important ;
+}
+
+.strip-4-about .container .row {
+  min-height: 400px;
+  align-self: center;
+}
+
+.strip-4-about .container .row img {
+  border-radius: 15px;
+
+  transition: all 0.3s !important;
+  max-height: 400px;
+}
+
+.strip-4-about .container .row img:hover {
+  transition: all 0.3s !important;
+  cursor: pointer;
+  transform: scale(1.045);
+  box-shadow: 18px 33px 49px -21px #99999981;
+}
