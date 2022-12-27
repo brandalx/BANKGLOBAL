@@ -104,3 +104,20 @@
   transform: scale(1.045);
   box-shadow: 18px 33px 49px -21px #99999981;
 } */
+
+.strip-5-about {
+  min-height: 620px;
+}
+
+.strip-5-about .container {
+  min-height: 620px;
+}
+
+.strip-5-about .container .row {
+  min-height: 620px;
+}
+
+.wrapper-strip-5-about {
+  display: flex;
+  flex-direction: column;
+}
