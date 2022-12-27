@@ -37,12 +37,12 @@
   max-width: 100%;
 }
 
-.strip-2-about .container .row img:hover {
+/* .strip-2-about .container .row img:hover {
   transition: all 0.3s !important;
   cursor: pointer;
   transform: scale(1.045);
   box-shadow: 18px 33px 49px -21px #99999981;
-}
+} */
 
 .strip-3-about {
   min-height: 610px;
@@ -65,12 +65,12 @@
   max-height: 400px;
 }
 
-.strip-3-about .container .row img:hover {
+/* .strip-3-about .container .row img:hover {
   transition: all 0.3s !important;
   cursor: pointer;
   transform: scale(1.045);
   box-shadow: 18px 33px 49px -21px #99999981;
-}
+} */
 
 .strip-4-about {
   min-height: 400px;
@@ -98,9 +98,9 @@
   max-height: 400px;
 }
 
-.strip-4-about .container .row img:hover {
+/* .strip-4-about .container .row img:hover {
   transition: all 0.3s !important;
   cursor: pointer;
   transform: scale(1.045);
   box-shadow: 18px 33px 49px -21px #99999981;
-}
+} */
