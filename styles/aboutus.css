@@ -46,7 +46,7 @@
 
 .strip-3-about {
   min-height: 610px;
-  background: linear-gradient(151.73deg, #c8fff259 -9.24%, #ceffe57c 108.65%);
+  background: linear-gradient(151.73deg, #eaffc83f -9.24%, #ffface50 108.65%);
 }
 .strip-3-about .container {
   min-height: 610px;
@@ -76,9 +76,9 @@
   min-height: 400px;
   background-image: linear-gradient(
     to left,
-    #ddfdcb8c 0%,
-    #fdcbf18c 1%,
-    #e9e6de7e 100%
+    #cbe1fd8c 0%,
+    #cbf1fd8c 1%,
+    #dee2e97e 100%
   );
 }
 .strip-4-about .container {
