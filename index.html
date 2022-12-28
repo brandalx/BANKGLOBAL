@@ -91,11 +91,11 @@
         >
           <div 
             class="uk-background-cover"
-            style="background-image: url('images/photo.jpg')"
+            style="background-image: url('./img/Saly-32.png')"
             uk-height-viewport
           ></div>
           <div class="uk-padding-large ">
-            <h1>Headline</h1>
+            <h1>Join Bank Global</h1>
             <p>
               Join the revolution in online banking with Bank Global! Our innovative mobile app allows you to manage your money, pay bills, transfer funds, and more from anywhere, anytime. Plus, with our state-of-the-art security measures and friendly customer service, you can trust us to keep your financial information safe and sound. Don't miss out on the convenience and peace of mind of banking on the go -  <em
               style="
@@ -125,6 +125,68 @@
       // Set a timeout to call the function after 15 seconds
       setTimeout(clickButton, 10000);
     </script>
+
+
+
+
+
+
+<a
+class="uk-button uk-button-default d-none "
+id="myButton2"
+href="#modal-full1"
+uk-toggle
+>Open</a
+>
+
+<div id="modal-full1" class="uk-modal-full " uk-modal>
+<div class="uk-modal-dialog">
+  <button
+    id="my-button1"
+    class="uk-modal-close-full uk-close-large"
+    type="button"
+    uk-close
+  ></button>
+  <div 
+    class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle " 
+    uk-grid
+  >
+    <div 
+      class="uk-background-cover"
+      style="background-image: url('./img/Saly-26.png')"
+      uk-height-viewport
+    ></div>
+    <div class="uk-padding-large ">
+      <h1>Your opinion is important for us!</h1>
+      <p>
+        Join the revolution in online banking with Bank Global! Our innovative mobile app allows you to manage your money, pay bills, transfer funds, and more from anywhere, anytime. Plus, with our state-of-the-art security measures and friendly customer service, you can trust us to keep your financial information safe and sound. Don't miss out on the convenience and peace of mind of banking on the go -  <em
+        style="
+          font-style: normal;
+          font-weight: bold;
+          color: var(--yellow);
+        "
+      > Take a survey</em>
+      </p>
+     <a href="./Quiz-survey.html"> <button class="mt-3">
+      Take a survey
+      </button></a>
+    </div>
+  </div>
+</div>
+</div>
+
+<script>
+// Get a reference to the button element
+const button2 = document.getElementById("myButton2");
+
+// Define the function to click on the button
+function clickButton() {
+  button2.click();
+}
+
+// Set a timeout to call the function after 15 seconds
+setTimeout(clickButton, 35000);
+</script>
 
     <!-- <div class="wrapper"> -->
     <header class="container-fluid" style="background: var(--blackMain)">
