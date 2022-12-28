@@ -317,8 +317,17 @@
 .news {
   min-height: 430px;
 }
+.uk-modal-close-full, .uk-close-large, .uk-icon, .uk-close{
+  padding: 15px !important;
+  border-radius: 30px !important;
+}
 
-.uk-close-large {
+.uk-modal-close-full, .uk-close-large, .uk-icon, .uk-close:hover{
+  background: rgb(224, 239, 255);
+}
+.uk-close-large { 
+  margin: 5px;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -328,9 +337,9 @@
 }
 .uk-close-large > *{
   fill: var(--yellow) !important;
-  
-  height: 20px !important;
-  width: 20px !important;
+ 
+  height: 8px !important;
+  width: 8px !important;
 }
 .uk-grid{
   
