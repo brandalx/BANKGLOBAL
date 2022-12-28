@@ -317,14 +317,14 @@
 .news {
   min-height: 430px;
 }
-.uk-modal-close-full, .uk-close-large, .uk-icon, .uk-close{
+ .uk-close{
   padding: 15px !important;
   border-radius: 30px !important;
 }
 
 
 
-.uk-modal-close-full, .uk-close-large, .uk-icon, .uk-close:hover{
+.uk-close:hover{
   background: rgb(224, 239, 255);
 }
 .uk-close-large { 
