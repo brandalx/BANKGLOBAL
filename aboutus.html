@@ -15,6 +15,7 @@
         document.head.appendChild(script);
       }
     </script>
+
     <meta property="og:image" content="./img/1931.jpg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -43,7 +44,8 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="styles/main.css" />
     <title>About Us</title>
     <script src="./js/date.js"></script>
@@ -448,9 +450,11 @@
           class="row flex-lg-row flex-sm-column flex-column align-items-sm-start align-items-lg-center align-items-start justify-content-lg-between justify-content-start justify-content-sm-start"
         >
           <div class="col-lg-6 col-sm-12 col-12">
-            <h2 class="">Market leader</h2>
+            <h2 data-aos="fade-up" data-aos-duration="1000" class="">
+              Market leader
+            </h2>
             <div class="wrapper-strip-5-about">
-              <h3 class="h3-2">
+              <h3 data-aos="fade-up" data-aos-duration="800" class="h3-2">
                 <em
                   style="
                     font-style: normal;
@@ -461,10 +465,12 @@
                 </em>
                 millions
               </h3>
-              <p>Active private clients in Global Bank</p>
+              <p data-aos="fade-up" data-aos-duration="500">
+                Active private clients in Global Bank
+              </p>
             </div>
             <div class="wrapper-strip-5-about">
-              <h3 class="h3-2">
+              <h3 data-aos="fade-up" data-aos-duration="800" class="h3-2">
                 <em
                   style="
                     font-style: normal;
@@ -475,9 +481,15 @@
                 >
                 millions
               </h3>
-              <p>Active monthly users of the our mobile app</p>
+              <p data-aos="fade-up" data-aos-duration="500">
+                Active monthly users of the our mobile app
+              </p>
             </div>
-            <div class="wrapper-strip-5-about">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="800"
+              class="wrapper-strip-5-about"
+            >
               <h3 class="h3-2">
                 <em
                   style="
@@ -489,14 +501,16 @@
                 >
                 thousands
               </h3>
-              <p>employees</p>
+              <p data-aos="fade-up" data-aos-duration="500">employees</p>
             </div>
           </div>
           <div class="col-lg-6 col-sm-12 col-12 mt-3 mt-sm-3 mt-lg-0">
-            <h2 class="">Market leader in internet banking</h2>
+            <h2 data-aos="fade-up" data-aos-duration="1000" class="">
+              Market leader in internet banking
+            </h2>
 
             <div class="wrapper-strip-5-about">
-              <h3 class="h3-2">
+              <h3 data-aos="fade-up" data-aos-duration="800" class="h3-2">
                 <em
                   style="
                     font-style: normal;
@@ -507,10 +521,12 @@
                 >
                 millions
               </h3>
-              <p>active corporate clients around the world</p>
+              <p data-aos="fade-up" data-aos-duration="500">
+                active corporate clients around the world
+              </p>
             </div>
             <div class="wrapper-strip-5-about">
-              <h3 class="h3-2">
+              <h3 data-aos="fade-up" data-aos-duration="800" class="h3-2">
                 <em
                   style="
                     font-style: normal;
@@ -521,10 +537,12 @@
                 >
                 thousands
               </h3>
-              <p>offices around the globe</p>
+              <p data-aos="fade-up" data-aos-duration="500">
+                offices around the globe
+              </p>
             </div>
             <div class="wrapper-strip-5-about">
-              <h3 class="h3-2">
+              <h3 data-aos="fade-up" data-aos-duration="800" class="h3-2">
                 <em
                   style="
                     font-style: normal;
@@ -535,7 +553,9 @@
                 >
                 thousands
               </h3>
-              <p>self-service devices worldwide</p>
+              <p data-aos="fade-up" data-aos-duration="500">
+                self-service devices worldwide
+              </p>
             </div>
           </div>
         </div>
@@ -880,5 +900,8 @@
     <!--Waves end-->
 
     <!-- </div> -->
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
