@@ -332,10 +332,15 @@
   height: 20px !important;
   width: 20px !important;
 }
+.uk-grid{
+  
+}
 
 
 
-.uk-modal-full, .uk-modal, .uk-open, .uk-modal-dialog{
+
+
+ .uk-modal-dialog{
  
   border-radius: 15px;
 }
