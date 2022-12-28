@@ -15,7 +15,20 @@
         document.head.appendChild(script);
       }
     </script>
+    <!-- UIkit CSS -->
+    <style>
+      a {
+        text-decoration: none !important;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.15.19/dist/css/uikit.min.css"
+    />
 
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.19/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.19/dist/js/uikit-icons.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -261,32 +274,665 @@
         <div
           class="row align-items-center mx-sm-auto text-sm-center text-lg-start mx-sm-auto"
         >
-          <div class="col-lg-5 col-sm-12 col-12 order-sm-1 order-1 order-lg-0">
+          <div
+            class="mt-2 mb-2 col-lg-5 col-sm-12 col-12 order-sm-1 order-1 order-lg-0"
+          >
             <h1
               data-aos="fade-right"
               data-aos-duration="1000"
               class="text-focus-in slide-in-bottom"
             >
-              Media
+              Media - How This Site Was Made
             </h1>
             <h4 class="">
-              Say goodbye to long lines and inconvenient banking hours.
+              This is short blog with code and photo exmaples of how this site
+              was made
             </h4>
-            <button
-              data-aos="fade-right"
-              data-aos-duration="1200"
-              class="button_accent mb-sm-3 mb-lg-0 mb-3"
-            >
-              Read more
-            </button>
           </div>
-          <div class="col-lg-6 col-sm-12">
+          <div class="col-lg-6 col-sm-12 vibrate-1 st1">
             <img
               data-aos="fade-right"
               data-aos-duration="800"
-              src="./img/picture1.jpg"
+              src="./img/image-95.png"
               alt=""
             />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="strip-2-faq container-fluid"
+      style="background: white !important"
+    >
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            class="col-lg-6 col-sm-12 col-12 mb-3 mt-3"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
+            <h3 class="h3-2 text-lg-start text-center text-sm-center">
+              <svg
+                class="mb-2"
+                width="20"
+                height="20"
+                viewBox="0 0 12 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6 7.63636C6.45455 7.63636 6.84091 7.47727 7.15909 7.15909C7.47727 6.84091 7.63636 6.45455 7.63636 6C7.63636 5.54545 7.47727 5.15909 7.15909 4.84091C6.84091 4.52273 6.45455 4.36364 6 4.36364C5.54545 4.36364 5.15909 4.52273 4.84091 4.84091C4.52273 5.15909 4.36364 5.54545 4.36364 6C4.36364 6.45455 4.52273 6.84091 4.84091 7.15909C5.15909 7.47727 5.54545 7.63636 6 7.63636ZM6 8.72727C5.24545 8.72727 4.60236 8.46127 4.07073 7.92927C3.53873 7.39764 3.27273 6.75455 3.27273 6C3.27273 5.24545 3.53873 4.60218 4.07073 4.07018C4.60236 3.53855 5.24545 3.27273 6 3.27273C6.75455 3.27273 7.39782 3.53855 7.92982 4.07018C8.46145 4.60218 8.72727 5.24545 8.72727 6C8.72727 6.75455 8.46145 7.39764 7.92982 7.92927C7.39782 8.46127 6.75455 8.72727 6 8.72727ZM0.545455 6.54545C0.390909 6.54545 0.261455 6.49309 0.157091 6.38836C0.0523636 6.284 0 6.15455 0 6C0 5.84545 0.0523636 5.71582 0.157091 5.61109C0.261455 5.50673 0.390909 5.45455 0.545455 5.45455H1.63636C1.79091 5.45455 1.92055 5.50673 2.02527 5.61109C2.12964 5.71582 2.18182 5.84545 2.18182 6C2.18182 6.15455 2.12964 6.284 2.02527 6.38836C1.92055 6.49309 1.79091 6.54545 1.63636 6.54545H0.545455ZM10.3636 6.54545C10.2091 6.54545 10.0796 6.49309 9.97527 6.38836C9.87055 6.284 9.81818 6.15455 9.81818 6C9.81818 5.84545 9.87055 5.71582 9.97527 5.61109C10.0796 5.50673 10.2091 5.45455 10.3636 5.45455H11.4545C11.6091 5.45455 11.7385 5.50673 11.8429 5.61109C11.9476 5.71582 12 5.84545 12 6C12 6.15455 11.9476 6.284 11.8429 6.38836C11.7385 6.49309 11.6091 6.54545 11.4545 6.54545H10.3636ZM6 2.18182C5.84545 2.18182 5.716 2.12945 5.61164 2.02473C5.50691 1.92036 5.45455 1.79091 5.45455 1.63636V0.545455C5.45455 0.390909 5.50691 0.261273 5.61164 0.156545C5.716 0.0521818 5.84545 0 6 0C6.15455 0 6.28418 0.0521818 6.38891 0.156545C6.49327 0.261273 6.54545 0.390909 6.54545 0.545455V1.63636C6.54545 1.79091 6.49327 1.92036 6.38891 2.02473C6.28418 2.12945 6.15455 2.18182 6 2.18182ZM6 12C5.84545 12 5.716 11.9476 5.61164 11.8429C5.50691 11.7385 5.45455 11.6091 5.45455 11.4545V10.3636C5.45455 10.2091 5.50691 10.0796 5.61164 9.97527C5.716 9.87055 5.84545 9.81818 6 9.81818C6.15455 9.81818 6.28418 9.87055 6.38891 9.97527C6.49327 10.0796 6.54545 10.2091 6.54545 10.3636V11.4545C6.54545 11.6091 6.49327 11.7385 6.38891 11.8429C6.28418 11.9476 6.15455 12 6 12ZM2.53636 3.3L1.95 2.72727C1.84091 2.62727 1.78855 2.5 1.79291 2.34545C1.79764 2.19091 1.85 2.05909 1.95 1.95C2.05909 1.84091 2.19091 1.78636 2.34545 1.78636C2.5 1.78636 2.62727 1.84091 2.72727 1.95L3.3 2.53636C3.4 2.64545 3.45 2.77273 3.45 2.91818C3.45 3.06364 3.4 3.19091 3.3 3.3C3.2 3.40909 3.07509 3.46127 2.92527 3.45655C2.77509 3.45218 2.64545 3.4 2.53636 3.3V3.3ZM9.27273 10.05L8.7 9.46364C8.6 9.35455 8.55 9.22509 8.55 9.07527C8.55 8.92509 8.6 8.8 8.7 8.7C8.8 8.59091 8.92509 8.53873 9.07527 8.54345C9.22509 8.54782 9.35455 8.6 9.46364 8.7L10.05 9.27273C10.1591 9.37273 10.2115 9.5 10.2071 9.65455C10.2024 9.80909 10.15 9.94091 10.05 10.05C9.94091 10.1591 9.80909 10.2136 9.65455 10.2136C9.5 10.2136 9.37273 10.1591 9.27273 10.05ZM8.7 3.3C8.59091 3.2 8.53873 3.07491 8.54345 2.92473C8.54782 2.77491 8.6 2.64545 8.7 2.53636L9.27273 1.95C9.37273 1.84091 9.5 1.78855 9.65455 1.79291C9.80909 1.79764 9.94091 1.85 10.05 1.95C10.1591 2.05909 10.2136 2.19091 10.2136 2.34545C10.2136 2.5 10.1591 2.62727 10.05 2.72727L9.46364 3.3C9.35455 3.4 9.22727 3.45 9.08182 3.45C8.93636 3.45 8.80909 3.4 8.7 3.3V3.3ZM1.95 10.05C1.84091 9.94091 1.78636 9.80909 1.78636 9.65455C1.78636 9.5 1.84091 9.37273 1.95 9.27273L2.53636 8.7C2.64545 8.6 2.77509 8.55 2.92527 8.55C3.07509 8.55 3.2 8.6 3.3 8.7C3.40909 8.8 3.46145 8.92509 3.45709 9.07527C3.45236 9.22509 3.4 9.35455 3.3 9.46364L2.72727 10.05C2.62727 10.1591 2.5 10.2113 2.34545 10.2065C2.19091 10.2022 2.05909 10.15 1.95 10.05Z"
+                  fill="var(--yellow)"
+                />
+              </svg>
+              First things first - my best Feature
+              <em
+                style="
+                  font-style: normal;
+                  font-weight: bold;
+                  color: var(--yellow);
+                "
+              >
+                Light/Dark
+              </em>
+              toggle
+            </h3>
+            <p
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              class="text-lg-start text-center text-sm-center"
+            >
+              I created this feature using global CSS variables and JavaScript
+              code that defines the behavior of the button. The feature can
+              detect the user's window current mode and toggle between different
+              modes. However, it currently does not have the ability to remember
+              the toggle state when the user navigates to a different page. I am
+              still learning how to correctly use
+              <code
+                style="color: var(--yellow); background: rgb(240, 240, 240)"
+                class="rounded-2"
+              >
+                LocalStorage</code
+              >
+              in this scenario.
+            </p>
+          </div>
+          <div
+            class="col-lg-6 col-sm-12 col-12 d-flex justify-content-center"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <!-- <div class="uk-h3">Scale</div> -->
+            <div
+              class="uk-child-width-1-2@m"
+              uk-grid
+              uk-lightbox="animation: scale"
+            >
+              <div class="">
+                <a
+                  class="uk-inline"
+                  href="./img/media/Screenshot_12.jpg"
+                  data-caption="Caption 1"
+                >
+                  <img
+                    class="rounded-4"
+                    src="./img/media/Screenshot_12.jpg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  class="uk-inline"
+                  href="./img/media/Screenshot_13.jpg"
+                  data-caption="Caption 2"
+                >
+                  <img
+                    src="./img/media/Screenshot_13.jpg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  class="uk-inline"
+                  href="./img/media/Screenshot_17.jpg"
+                  data-caption="Caption 3"
+                >
+                  <img
+                    src="./img/media/Screenshot_17.jpg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  class="uk-inline"
+                  href="./img/media/Screenshot_18.jpg"
+                  data-caption="Caption 3"
+                >
+                  <img
+                    src="./img/media/Screenshot_18.jpg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12 col-sm-12 col-12 mt-3">
+            <!-- <p
+              class="p_small mb-4 ms-3"
+              style="color: var(--paragraphSecondary)"
+            >
+              This segment is not finished yet... will be updated soon
+            </p> -->
+            <p></p>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              class="accordion"
+              id="accordionPanelsStayOpenExample"
+            >
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button
+                    class="accordion-button button_accordio"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne"
+                    aria-expanded="true"
+                    style="color: var(--yellow); font-weight: bolder"
+                    aria-controls="panelsStayOpen-collapseOne"
+                  >
+                    CSS code example of using global variables
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="panelsStayOpen-headingOne"
+                >
+                  <div class="accordion-body">
+                    <code
+                      style="
+                        color: var(--yellow);
+                        background: rgb(240, 240, 240);
+                      "
+                      class="rounded-2"
+                    >
+                      :root { <br />
+                      --yellow: #ffb444;
+
+                      <br />
+                      --blackMain: #3b414b;
+                      <br />
+                      --headingMain: #2c3136;
+                      <br />
+                      --paragraphMain: #262626;
+                      <br />--paragraphSecondary: #686868;
+                      <br />--paragraphTurtary: #afafaf; <br />--whites:
+                      #ffffff; <br />
+                      --bg: #ffffff; <br />--whitesreversed: #ffffff; }
+                    </code>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button
+                    class="accordion-button collapsed button_accordio"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    style="color: var(--yellow); font-weight: bolder"
+                    data-bs-target="#panelsStayOpen-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree"
+                  >
+                    Exmaple of implementing those global variables in HTML
+                    document (you ca use this method also in separete CSS file
+                    instead inline method as well)
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingThree"
+                >
+                  <div class="accordion-body">
+                    <code
+                      style="
+                        color: var(--yellow);
+                        background: rgb(240, 240, 240);
+                      "
+                      class="rounded-2"
+                    >
+                      &lt;p style="color: var(--yellow)"&gt;&lt;/p&gt;
+                    </code>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading4">
+                  <button
+                    class="accordion-button collapsed button_accordio"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    style="color: var(--yellow); font-weight: bolder"
+                    data-bs-target="#panelsStayOpen-collapse4"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapse4"
+                  >
+                    Java Script code implementation of switcher Dark/Light mode
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapse4"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-heading4"
+                >
+                  <div class="accordion-body">
+                    <code
+                      style="
+                        white-space: pre-line;
+                        color: var(--yellow);
+                        background: rgb(240, 240, 240);
+                      "
+                      class="rounded-2"
+                      >const lightColors = { yellow: "#ffb444", blackMain:
+                      "#3b414b", headingMain: "#2c3136", paragraphMain:
+                      "#262626", paragraphSecondary: "#686868",
+                      paragraphTurtary: "#afafaf", whites: "#ffffff",
+                      whitesreversed: "#3a3a3a", primary: "#ffb444",
+                      primarylight: "#ffb444", // bg: "#3f3f3f", }; const
+                      darkColors = { yellow: "#2667ff", blackMain: "#ffffff",
+                      headingMain: "#ffffff", paragraphMain: "#ffffff",
+                      paragraphSecondary: "#686868", paragraphTurtary:
+                      "#ffffff", whites: "#2c3136", whitesreversed: "#ffffff",
+                      primaryreversed: "#2667ff", primarylightreversed:
+                      "#2667ff", // bg: "#ffffff", }; function
+                      applyColors(colors) {
+                      document.documentElement.style.setProperty("--yellow",
+                      colors.yellow);
+                      document.documentElement.style.setProperty("--blackMain",
+                      colors.blackMain);
+                      document.documentElement.style.setProperty(
+                      "--headingMain", colors.headingMain );
+                      document.documentElement.style.setProperty(
+                      "--paragraphMain", colors.paragraphMain );
+                      document.documentElement.style.setProperty(
+                      "--paragraphSecondary", colors.paragraphSecondary );
+                      document.documentElement.style.setProperty(
+                      "--paragraphTurtary", colors.paragraphTurtary );
+                      document.documentElement.style.setProperty("--whites",
+                      colors.whites);
+                      document.documentElement.style.setProperty("--bg",
+                      colors.bg); document.documentElement.style.setProperty(
+                      "--whitesreversed", colors.whitesreversed );
+                      document.documentElement.style.setProperty( "--primary",
+                      colors.primaryreversed );
+                      document.documentElement.style.setProperty(
+                      "--primary-light", colors.primarylightreversed ); }
+                    </code>
+                  </div>
+                </div>
+              </div>
+
+              <!-- <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading5">
+                  <button
+                    class="accordion-button collapsed button_accordio"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    style="color: var(--yellow); font-weight: bolder"
+                    data-bs-target="#panelsStayOpen-collapse5"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapse5"
+                  >
+                    Can I log in to the web version of Global Bank through any
+                    browser?
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapse5"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-heading5"
+                >
+                  <div class="accordion-body">
+                    <code
+                      style="
+                        color: var(--yellow);
+                        background: rgb(240, 240, 240);
+                      "
+                      class="rounded-2"
+                    >
+                      :root { <br />
+                      --yellow: #ffb444;
+
+                      <br />
+                      --blackMain: #3b414b;
+                      <br />
+                      --headingMain: #2c3136;
+                      <br />
+                      --paragraphMain: #262626;
+                      <br />--paragraphSecondary: #686868;
+                      <br />--paragraphTurtary: #afafaf; <br />--whites:
+                      #ffffff; <br />
+                      --bg: #ffffff; <br />--whitesreversed: #ffffff; }
+                    </code>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading6">
+                  <button
+                    class="accordion-button collapsed button_accordio"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapse6"
+                    aria-expanded="false"
+                    style="color: var(--yellow); font-weight: bolder"
+                    aria-controls="panelsStayOpen-collapse6"
+                  >
+                    How to enable fast biometric login - face or fingerprint?
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapse6"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-heading6"
+                >
+                  <div class="accordion-body">
+                    <code
+                      style="
+                        color: var(--yellow);
+                        background: rgb(240, 240, 240);
+                      "
+                      class="rounded-2"
+                    >
+                      :root { <br />
+                      --yellow: #ffb444;
+
+                      <br />
+                      --blackMain: #3b414b;
+                      <br />
+                      --headingMain: #2c3136;
+                      <br />
+                      --paragraphMain: #262626;
+                      <br />--paragraphSecondary: #686868;
+                      <br />--paragraphTurtary: #afafaf; <br />--whites:
+                      #ffffff; <br />
+                      --bg: #ffffff; <br />--whitesreversed: #ffffff; }
+                    </code>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 mb-5 mt-5" style="height: 10px">
+      <div
+        class="w-50 mx-auto opacity-25"
+        style="border: solid 1px var(--yellow)"
+      ></div>
+    </div>
+
+    <div
+      class="strip-2-faq container-fluid pt-5 pb-5"
+      style="background: rgb(239, 242, 255) !important"
+    >
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            class="col-lg-6 col-sm-12 col-12"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
+            <h3 class="h3-2 text-lg-start text-center text-sm-center">
+              First things first - my best Feature
+              <em
+                style="
+                  font-style: normal;
+                  font-weight: bold;
+                  color: var(--yellow);
+                "
+              >
+                Light/Dark
+              </em>
+              toggle
+            </h3>
+            <p
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              class="text-lg-start text-center text-sm-center"
+            >
+              I created this feature using global CSS variables and JavaScript
+              code that defines the behavior of the button. The feature can
+              detect the user's window current mode and toggle between different
+              modes. However, it currently does not have the ability to remember
+              the toggle state when the user navigates to a different page. I am
+              still learning how to correctly use
+              <code
+                style="color: var(--yellow); background: rgb(240, 240, 240)"
+                class="rounded-2"
+              >
+                LocalStorage</code
+              >
+              in this scenario.
+            </p>
+          </div>
+          <div
+            class="col-lg-6 col-sm-12 col-12 d-flex justify-content-center"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <!-- <div class="uk-h3">Scale</div> -->
+            <div
+              class="uk-child-width-1-2@m"
+              uk-grid
+              uk-lightbox="animation: scale"
+            >
+              <div class="">
+                <a
+                  class="uk-inline"
+                  href="./img/media/Screenshot_12.jpg"
+                  data-caption="Caption 1"
+                >
+                  <img
+                    class="rounded-4"
+                    src="./img/media/Screenshot_12.jpg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  class="uk-inline"
+                  href="./img/media/Screenshot_13.jpg"
+                  data-caption="Caption 2"
+                >
+                  <img
+                    src="./img/media/Screenshot_13.jpg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  class="uk-inline"
+                  href="./img/media/Screenshot_17.jpg"
+                  data-caption="Caption 3"
+                >
+                  <img
+                    src="./img/media/Screenshot_17.jpg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  class="uk-inline"
+                  href="./img/media/Screenshot_18.jpg"
+                  data-caption="Caption 3"
+                >
+                  <img
+                    src="./img/media/Screenshot_18.jpg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 mb-5 mt-5" style="height: 10px">
+      <div
+        class="w-50 mx-auto opacity-25 mb-3 mt-3"
+        style="border: solid 1px var(--yellow)"
+      ></div>
+    </div>
+
+    <div
+      class="strip-2-faq container-fluid pt-5 pb-5"
+      style="background: rgb(255, 255, 255) !important"
+    >
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            class="col-lg-6 col-sm-12 col-12"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
+            <h3 class="h3-2 text-lg-start text-center text-sm-center">
+              First things first - my best Feature
+              <em
+                style="
+                  font-style: normal;
+                  font-weight: bold;
+                  color: var(--yellow);
+                "
+              >
+                Light/Dark
+              </em>
+              toggle
+            </h3>
+            <p
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              class="text-lg-start text-center text-sm-center"
+            >
+              I created this feature using global CSS variables and JavaScript
+              code that defines the behavior of the button. The feature can
+              detect the user's window current mode and toggle between different
+              modes. However, it currently does not have the ability to remember
+              the toggle state when the user navigates to a different page. I am
+              still learning how to correctly use
+              <code
+                style="color: var(--yellow); background: rgb(240, 240, 240)"
+                class="rounded-2"
+              >
+                LocalStorage</code
+              >
+              in this scenario.
+            </p>
+          </div>
+          <div
+            class="col-lg-6 col-sm-12 col-12 d-flex justify-content-center"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <!-- <div class="uk-h3">Scale</div> -->
+            <div
+              class="uk-child-width-1-2@m"
+              uk-grid
+              uk-lightbox="animation: scale"
+            >
+              <div class="">
+                <a
+                  class="uk-inline"
+                  href="./img/media/Screenshot_12.jpg"
+                  data-caption="Caption 1"
+                >
+                  <img
+                    class="rounded-4"
+                    src="./img/media/Screenshot_12.jpg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  class="uk-inline"
+                  href="./img/media/Screenshot_13.jpg"
+                  data-caption="Caption 2"
+                >
+                  <img
+                    src="./img/media/Screenshot_13.jpg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  class="uk-inline"
+                  href="./img/media/Screenshot_17.jpg"
+                  data-caption="Caption 3"
+                >
+                  <img
+                    src="./img/media/Screenshot_17.jpg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  class="uk-inline"
+                  href="./img/media/Screenshot_18.jpg"
+                  data-caption="Caption 3"
+                >
+                  <img
+                    src="./img/media/Screenshot_18.jpg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
