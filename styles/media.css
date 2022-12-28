@@ -1,0 +1,27 @@
+.imgbox {
+  border: 2px white solid !important;
+}
+.imgbox:hover {
+  border: 2px var(--yellow) solid !important;
+}
+
+.uk-text-center {
+  margin-bottom: 10px;
+}
+
+.uk-lightbox-button {
+  border-radius: 50px;
+}
+
+.uk-lightbox-toolbar-icon {
+  border-radius: 50px;
+  padding: 10px;
+}
+
+/* .uk-active {
+  background: rgba(255, 255, 255, 0.274);
+} */
+.uk-lightbox {
+  background: rgba(165, 165, 165, 0.685);
+  backdrop-filter: blur(5px);
+}
