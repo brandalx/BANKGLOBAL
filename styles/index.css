@@ -318,6 +318,28 @@
   min-height: 430px;
 }
 
+.uk-close-large {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  
+  border:  2px solid var(--yellow);
+}
+.uk-close-large > *{
+  fill: var(--yellow) !important;
+  
+  height: 20px !important;
+  width: 20px !important;
+}
+
+
+
+.uk-modal-full, .uk-modal, .uk-open, .uk-modal-dialog{
+ 
+  border-radius: 15px;
+}
+
 .news .container {
   display: flex;
   align-items: center;
