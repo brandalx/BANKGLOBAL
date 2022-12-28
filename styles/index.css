@@ -352,3 +352,224 @@
     );
   }
 }
+
+/* 6666666666666666666*/
+a {
+  color: var(--yellow) !important;
+}
+.a {
+  list-style: none;
+  text-decoration: none;
+  font-weight: 400 !important;
+  font-size: 1em !important;
+  line-height: 24px !important;
+  color: var(--whites);
+  transition: ease-out 0.3s !important;
+}
+.a:hover {
+  text-decoration: none !important;
+  color: var(--yellow);
+  transition: ease-in 0.3s;
+}
+a:hover {
+  text-decoration: none !important;
+  transition: all 0.3s !important;
+  color: var(--yellow);
+  transition: ease-in 0.3s !important;
+}
+
+.p_small {
+  font-weight: 400 !important;
+  font-size: 0.875em !important;
+  line-height: 16px !important;
+}
+
+.p_default {
+  color: #262626;
+  font-weight: 400 !important;
+  font-size: 1em !important;
+  line-height: 24px !important;
+}
+p {
+  color: #262626;
+  font-weight: 400 !important;
+  font-size: 1em !important;
+  line-height: 24px !important;
+}
+
+.p_bold {
+  color: #3b414b;
+  font-weight: 700 !important;
+  font-size: 1em !important;
+  line-height: 24px !important;
+}
+
+.p_bold_18 {
+  color: #2c3136;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  line-height: 24px !important;
+}
+
+h5 {
+  color: #3b414b;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 1.25em !important;
+  line-height: 26px !important;
+}
+
+h3 {
+  color: #3b414b;
+  font-weight: 400 !important;
+  font-size: 1.625 !important;
+  line-height: 26px !important;
+}
+
+.h3-2 {
+  color: #3b414b;
+  font-weight: 700 !important;
+  font-size: 1.625 !important;
+  line-height: 32px !important;
+}
+
+h2 {
+  color: #3b414b;
+  font-weight: 700 !important;
+  font-size: 2.25em !important;
+  line-height: 40px !important;
+}
+
+h1 {
+  color: #3b414b;
+  font-weight: 700 !important;
+  font-size: 2.75em !important;
+  line-height: 46px !important;
+}
+
+.button_nav {
+  background: none;
+  border: 2px solid var(--yellow);
+  border-radius: 8px !important;
+
+  font-weight: 700 !important;
+  font-size: 1em !important;
+
+  padding: 10px 20px !important;
+
+  color: var(--whites);
+  transition: ease-out 0.3s !important;
+}
+
+.button_nav:hover {
+  text-decoration: none !important;
+  transition: all 0.3s !important;
+  transition: ease-in 0.3s !important;
+  cursor: pointer;
+  background: var(--yellow);
+  color: var(--whites);
+}
+
+button {
+  /* border: none; */
+  border: 2px solid var(--paragraphMain);
+  border-radius: 8px !important;
+  font-weight: 400 !important;
+  font-size: 1em !important;
+  line-height: 24px !important;
+  padding: 15px 60px !important;
+  background: var(--yellow);
+  color: white;
+  transition: all 0.3s;
+  border: 2px solid var(--yellow);
+}
+
+button:hover {
+  text-decoration: none !important;
+  transition: all 0.3s !important;
+
+  color: var(--whites);
+
+  background: var(--paragraphMain);
+}
+
+.button_accordio {
+}
+
+.button_accordio:hover {
+  text-decoration: none !important;
+  background: rgba(220, 220, 255, 0.301) !important ;
+}
+
+.button_accent {
+  text-decoration: none !important;
+  border: none;
+  border-radius: 8px !important;
+  font-weight: 400 !important;
+  font-size: 1em !important;
+  line-height: 24px !important;
+  padding: 15px 60px !important;
+  border: 2px solid var(--paragraphMain);
+  background: var(--blackMain);
+  color: var(--whites);
+  transition: all 0.3s;
+}
+
+.button_accent:hover {
+  text-decoration: none !important;
+  transition: all 0.3s !important;
+  color: var(--whites);
+  border: 2px solid var(--yellow);
+  background: var(--paragraphMain);
+}
+
+.button_option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 5px !important;
+  font-weight: 400 !important;
+  font-size: 1em !important;
+
+  /* padding: 10px 20px; */
+  width: 90px !important;
+  height: 40px !important;
+  text-align: center;
+  background: var(--blackMain);
+  color: var(--whites);
+  transition: ease-out 0.3s;
+}
+
+.button_option:hover {
+  text-decoration: none !important;
+  transition: all 0.3s !important;
+  color: var(--whites);
+  cursor: pointer;
+  transition: ease-in 0.3s;
+  background: var(--paragraphMain);
+}
+
+.button_big {
+  border: none;
+  border-radius: 8px !important;
+  font-weight: 400 !important;
+  font-size: 1em !important;
+  line-height: 24px !important;
+  padding: 15px 110px !important;
+  background: var(--yellow);
+  color: white;
+  transition: ease-out 0.3s;
+  border: 2px solid var(--yellow);
+}
+
+.button_big:hover {
+  text-decoration: none !important;
+  transition: all 0.3s !important;
+  border: 2px solid var(--paragraphSecondary);
+  color: var(--whites);
+  transition: ease-in 0.3s;
+  background: var(--paragraphMain);
+}

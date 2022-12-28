@@ -90,6 +90,7 @@ ul {
   transition: ease-out 0.3s;
 }
 .a:hover {
+  text-decoration: none !;
   color: var(--yellow);
   transition: ease-in 0.3s;
 }
