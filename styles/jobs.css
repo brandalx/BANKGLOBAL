@@ -124,6 +124,26 @@
   );
 }
 
+.card-body{
+  transition: all 0.3s !important;
+
+}
+.card-body:hover{
+  transition: all 0.3s !important;
+
+}
+
+.card-3 card-job{
+  transition: all 0.3s !important;
+}
+
+.card-3 ,card-job:hover{
+  transition: all 0.3s !important;
+}
+
+
+
+
 .card-job-3 {
   background: #ddc4ef;
 }
@@ -181,3 +201,5 @@
   color: var(--yellow);
   cursor: pointer;
 }
+
+

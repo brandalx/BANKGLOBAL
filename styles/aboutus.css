@@ -36,6 +36,23 @@
   transition: all 0.3s !important;
   max-width: 100%;
 }
+.card-body{
+  transition: all 0.3s !important;
+
+}
+.card-body:hover{
+  transition: all 0.3s !important;
+
+}
+
+.card{
+  transition: all 0.3s !important;
+
+}
+.card:hover{
+  transition: all 0.3s !important;
+
+}
 
 /* .strip-2-about .container .row img:hover {
   transition: all 0.3s !important;

@@ -115,7 +115,7 @@
   display: flex;
 
   border-radius: 15px;
-  transition: all 0.3s;
+  transition: all 0.3s  !important;
 }
 .box:hover {
   transition: all 0.3s !important;
@@ -169,8 +169,9 @@
   border-radius: 15px;
 }
 
+
 .strip-3-img {
-  transition: all 0.3s;
+  transition: all 0.3s !important;;
 }
 
 .strip-3-img:hover {
@@ -201,6 +202,13 @@
   box-shadow: 18px 33px 49px -21px rgba(84, 84, 84, 0.52);
 }
 
+
+.imgadd{
+  transition: all 0.3s !important;
+}
+.imgadd{
+  transition: all 0.3s !important;
+}
 .strip-5 {
   min-height: 330px;
   border-radius: 15px;
@@ -214,6 +222,7 @@
 }
 
 .strip-5-box {
+  transition: all 0.3s !important;
   border-radius: 15px;
 }
 .strip-5-boxA {
