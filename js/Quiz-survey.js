@@ -150,7 +150,7 @@ function quiz() {
         counterOpt1 > counterOpt4
       ) {
         modalhead.innerHTML =
-          "🎉🎉🎉<br> We are thrilled to hear that you had a fantastic experience with our online banking services.";
+          "🥳🥳🥳<br> We are thrilled to hear that you had a fantastic experience with our online banking services.";
 
         modalparagraph.innerHTML =
           "We are committed to providing top-quality service and will continue to work on continuous improvement to ensure that our customers have the best possible experience with us.";
@@ -169,7 +169,7 @@ function quiz() {
         counterOpt3 > counterOpt4
       ) {
         modalhead.innerHTML =
-          "😀😀😀<br> Thank you for your feedback on our online banking services. We are glad to hear that you were satisfied with your experience.";
+          "😌😌😌<br> Thank you for your feedback on our online banking services. We are glad to hear that you were satisfied with your experience.";
         modalparagraph.innerHTML =
           "We strive to provide reliable and efficient service to all of our customers, and we appreciate your feedback as we continue to work on improving and updating our offerings.";
       } else {
