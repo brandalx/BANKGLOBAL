@@ -34,6 +34,7 @@
 }
 
 .box-strip-2-loan {
+  background: linear-gradient(-30deg, #70e1f53b 0, #ffd19462 100%) !important;
   max-height: 500px;
   transition: all 0.3s !important;
 }
