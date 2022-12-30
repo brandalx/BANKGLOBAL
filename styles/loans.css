@@ -103,9 +103,12 @@
 }
 
 .strip-4-loans {
+  min-height: 340px;
 }
 
 .strip-4-loans .container {
+  min-height: 340px;
 }
 .strip-4-loans .container .row {
+  min-height: 340px;
 }
