@@ -21,3 +21,13 @@
   min-height: 380px;
   align-self: center;
 }
+.buiscont {
+  transition: all 0.3s !important;
+  border: 2px solid var(--yellow);
+}
+
+.buiscont:hover {
+  transition: all 0.3s !important;
+  transform: scale(1.025);
+  background: rgba(176, 208, 255, 0.281);
+}
