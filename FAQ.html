@@ -1124,6 +1124,82 @@
     <script>
       AOS.init();
     </script>
+    <style>
+      #scroll-to-top {
+        position: fixed;
+        bottom: 60px;
+        right: 20px;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease-in-out;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+
+      #scroll-to-top.visible {
+        opacity: 1;
+        visibility: visible;
+      }
+      #scroll-to-top:hover {
+        transition: all 0.3s;
+        transform: scale(1.35);
+      }
+    </style>
+
+    <div id="scroll-to-top">
+      <svg
+        width="22"
+        height="13"
+        viewBox="0 0 22 13"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line
+          x1="2"
+          y1="10.8787"
+          x2="10.4853"
+          y2="2.3934"
+          stroke="var(--yellow)"
+          stroke-width="3"
+          stroke-linecap="round"
+        />
+        <line
+          x1="11.1213"
+          y1="2.39258"
+          x2="19.6066"
+          y2="10.8779"
+          stroke="var(--yellow)"
+          stroke-width="3"
+          stroke-linecap="round"
+        />
+      </svg>
+    </div>
+
+    <script>
+      let previousScrollPosition = 0;
+
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+
+      window.addEventListener("scroll", function () {
+        const currentScrollPosition = window.scrollY;
+
+        if (currentScrollPosition > previousScrollPosition) {
+          document.getElementById("scroll-to-top").classList.add("visible");
+        } else {
+          document.getElementById("scroll-to-top").classList.remove("visible");
+        }
+
+        previousScrollPosition = currentScrollPosition;
+      });
+
+      document
+        .getElementById("scroll-to-top")
+        .addEventListener("click", scrollToTop);
+    </script>
     <!-- </div> -->
   </body>
 </html>
