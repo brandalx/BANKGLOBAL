@@ -21,3 +21,23 @@
   min-height: 380px;
   align-self: center;
 }
+
+
+.strip-2-loan{
+  min-height: 1000px;
+}
+
+.strip-2-loan .container{
+  min-height: 1000px;
+}
+.strip-2-loan .container .row{
+  min-height: 1000px;
+}
+
+.box-strip-2-loan{
+  max-height: 500px;
+}
+
+.box-strip-2-loan img{
+  max-height: 180px;
+}
