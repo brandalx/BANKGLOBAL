@@ -31,3 +31,23 @@
   transform: scale(1.025);
   background: rgba(176, 208, 255, 0.281);
 }
+
+.strip-3-buisness {
+  min-height: 200px;
+}
+
+.strip-3-buisness .container {
+  min-height: 200px;
+}
+
+.strip-3-buisness .container .row {
+  min-height: 200px;
+}
+
+.busbox {
+  transition: all 0.3s !important;
+}
+.busbox:hover {
+  transition: all 0.3s !important;
+  transform: scale(1.045);
+}
