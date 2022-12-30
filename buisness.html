@@ -15,6 +15,8 @@
         document.head.appendChild(script);
       }
     </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/loading.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -268,6 +270,8 @@
             class="col-12 order-3 d-flex justify-content-lg-around flex-sm-column flex-column flex-lg-row align-items-sm-center align-items-center"
           >
             <a
+              data-aos="fade-up"
+              data-aos-duration="1000"
               href="./loans.html"
               class="rounded-5 col-lg-2 col-sm-12 col-12 buiscont d-flex justify-content-center align-items-center pt-2 pb-2 m-3"
             >
@@ -306,6 +310,8 @@
               </div>
             </a>
             <a
+              data-aos="fade-up"
+              data-aos-duration="1000"
               href="./FAQ.html"
               class="rounded-5 col-lg-2 col-sm-12 col-12 buiscont d-flex justify-content-center align-items-center pt-2 pb-2 m-3"
             >
@@ -354,6 +360,8 @@
               </div>
             </a>
             <a
+              data-aos="fade-up"
+              data-aos-duration="1000"
               class="rounded-5 col-lg-2 col-sm-12 col-12 buiscont d-flex justify-content-center align-items-center pt-2 pb-2 m-3"
               href="./contactus.html"
             >
@@ -425,8 +433,18 @@
         <div class="row align-items-lg-center">
           <div class="col-lg-6 col-sm-12 col-12">
             <div class="box-strip-3-left">
-              <h2 class="ms-4 mt-5 order-0">Reduced acquiring commission</h2>
-              <p class="ms-4 order-0">
+              <h2
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                class="ms-4 mt-5 order-0"
+              >
+                Reduced acquiring commission
+              </h2>
+              <p
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                class="ms-4 order-0"
+              >
                 1% in the first 2 months when opening an account and connecting
                 acquiring until next day of
                 <em
@@ -443,6 +461,8 @@
               </p>
               <a href="./contactus.html"
                 ><button
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
                   class="ms-4 order-0 mb-sm-4 mb-4 mb-lg-0 text-center text-sm-center"
                 >
                   More info
@@ -584,7 +604,7 @@
     <div class="container-fluid strip-3-buisness mt-5">
       <div class="container">
         <div class="row justify-content-around align-items-center">
-          <div class="col-12">
+          <div data-aos="fade-up" data-aos-duration="1000" class="col-12">
             <h2 class="text-center">
               Simple service packages for opening an account
             </h2>
@@ -593,6 +613,8 @@
             </p>
           </div>
           <div
+            data-aos="fade-up"
+            data-aos-duration="800"
             style="max-height: 150px; background: #9ee8ffa2"
             class="busbox col-lg-3 col-sm-10 col-10 rounded-4 d-flex flex-column justify-content-between mt-lg-0 mt-sm-3 mt-3"
           >
@@ -607,6 +629,8 @@
             </div>
           </div>
           <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
             style="max-height: 150px; background: #9effe7a4"
             class="busbox col-lg-3 col-sm-10 col-10 rounded-4 d-flex flex-column justify-content-between mt-lg-0 mt-sm-3 mt-3"
           >
@@ -621,6 +645,8 @@
             </div>
           </div>
           <div
+            data-aos="fade-up"
+            data-aos-duration="1200"
             style="max-height: 150px; background: #ff9ed8cc"
             class="busbox col-lg-3 col-sm-10 col-10 rounded-4 d-flex flex-column justify-content-between mt-lg-0 mt-sm-3 mt-3"
           >
@@ -647,17 +673,17 @@
     <div class="container-fluid text-center">
       <div class="container">
         <div class="row">
-          <div class="col-12">
+          <div data-aos="fade-up" data-aos-duration="1000" class="col-12">
             <h3>Simple service packages for opening an account</h3>
             <p>Free opening without visiting the bank office</p>
           </div>
-          <div class="col-4 mx-auto">
-            <a href="./contactus.html" class="text-center"
-              ><button
-                class="order-0 mb-sm-4 mb-4 mb-lg-0 text-center text-sm-center text-center"
-              >
-                Contact Us
-              </button></a
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            class="col-lg-4 col-sm-12 col-12 mx-auto"
+          >
+            <a href="./contactus.html" class=""
+              ><button class="order-0 text-center">Contact Us</button></a
             >
           </div>
         </div>
@@ -950,6 +976,9 @@
     <script src="js/mode.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js//date.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- </div> -->
   </body>
 </html>

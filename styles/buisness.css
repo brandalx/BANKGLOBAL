@@ -49,5 +49,5 @@
 }
 .busbox:hover {
   transition: all 0.3s !important;
-  transform: scale(1.045);
+  transform: scale(1.025) !important;
 }
