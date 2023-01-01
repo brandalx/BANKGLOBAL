@@ -1,6 +1,7 @@
 function init() {
   const lightColors = {
     yellow: "#ffb444",
+    // yellow: "#40916c",
     blackMain: "#3b414b",
     headingMain: "#2c3136",
     paragraphMain: "#262626",
