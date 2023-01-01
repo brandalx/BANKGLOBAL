@@ -1,6 +1,7 @@
 function init() {
   const lightColors = {
     yellow: "#ffb444",
+    // yellow: "#40916c",
     blackMain: "#3b414b",
     headingMain: "#2c3136",
     paragraphMain: "#262626",
@@ -17,7 +18,7 @@ function init() {
     blackMain: "#ffffff",
     headingMain: "#ffffff",
     paragraphMain: "#ffffff",
-    paragraphSecondary: "#ffffff",
+    paragraphSecondary: "#686868",
     paragraphTurtary: "#ffffff",
     whites: "#2c3136",
     whitesreversed: "#ffffff",
