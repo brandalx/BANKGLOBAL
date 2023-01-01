@@ -18,7 +18,7 @@ function init() {
     blackMain: "#ffffff",
     headingMain: "#ffffff",
     paragraphMain: "#ffffff",
-    paragraphSecondary: "#686868",
+    paragraphSecondary: "#ffffff",
     paragraphTurtary: "#ffffff",
     whites: "#2c3136",
     whitesreversed: "#ffffff",

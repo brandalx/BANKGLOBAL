@@ -37,6 +37,7 @@ body {
 body {
   /* background-color: var(--bg); */
   cursor: url("./cursor.svg"), auto;
+  background: var(--blackMain);
 }
 
 ::selection {
@@ -107,34 +108,34 @@ a:hover {
 }
 
 .p_default {
-  color: #262626;
+  color: var(--paragraphMain);
   font-weight: 400;
   font-size: 1em;
   line-height: 24px;
 }
 p {
-  color: #262626;
+  color: var(--paragraphMain);
   font-weight: 400;
   font-size: 1em;
   line-height: 24px;
 }
 
 .p_bold {
-  color: #3b414b;
+  color: var(--paragraphMain);
   font-weight: 700;
   font-size: 1em;
   line-height: 24px;
 }
 
 .p_bold_18 {
-  color: #2c3136;
+  color: var(--paragraphMain);
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
 }
 
 h5 {
-  color: #3b414b;
+  color: var(--headingMain);
 }
 
 h4 {
@@ -144,34 +145,34 @@ h4 {
 }
 
 h3 {
-  color: #3b414b;
+  color: var(--blackMain);
   font-weight: 400;
   font-size: 1.625;
   line-height: 26px;
 }
 
 .h3-2 {
-  color: #3b414b;
+  color: var(--whites);
   font-weight: 700;
   font-size: 1.625;
   line-height: 32px;
 }
 
 h2 {
-  color: #3b414b;
+  color: var(--headingMain);
   font-weight: 700;
   font-size: 2.25em;
   line-height: 40px;
 }
 
 h1 {
-  color: #3b414b;
+  color: var(--headingMain);
   font-weight: 700;
   font-size: 2.75em;
   line-height: 46px;
 }
 .h1 {
-  color: #3b414b !important;
+  color: var(--headingMain) !important;
   font-weight: 700 !important;
   font-size: 2.75em !important;
   line-height: 46px !important;
