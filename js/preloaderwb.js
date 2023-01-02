@@ -6,7 +6,7 @@ pMain.style.display = "none"
         document.querySelector('.preloaderwb').style.display = 'none';
         pMain.style.display = "block"
         document.body.style.overflow = "auto";
-    }, 2500)
+    }, 2000)
 }
 
 newinit();

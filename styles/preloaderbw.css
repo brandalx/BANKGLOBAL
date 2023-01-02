@@ -145,18 +145,18 @@
 .loader--left .loader__circle {
   background-color: #fff;
   right: 10px;
-  -webkit-animation: leftAnim 0.3s ease-in-out alternate infinite;
-  -moz-animation: leftAnim 0.3s ease-in-out alternate infinite;
-  animation: leftAnim 0.3s ease-in-out alternate infinite;
+  -webkit-animation: leftAnim 0.2s ease-in-out alternate infinite;
+  -moz-animation: leftAnim 0.2s ease-in-out alternate infinite;
+  animation: leftAnim 0.2s ease-in-out alternate infinite;
 }
 .loader--right {
   right: 0;
 }
 .loader--right .loader__circle {
   left: 10px;
-  -webkit-animation: rightAnim 0.3s ease-in-out alternate infinite;
-  -moz-animation: rightAnim 0.3s ease-in-out alternate infinite;
-  animation: rightAnim 0.3s ease-in-out alternate infinite;
+  -webkit-animation: rightAnim 0.2s ease-in-out alternate infinite;
+  -moz-animation: rightAnim 0.2s ease-in-out alternate infinite;
+  animation: rightAnim 0.2s ease-in-out alternate infinite;
 }
 .loader__circle {
   width: 75px;
