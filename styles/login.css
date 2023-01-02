@@ -1,11 +1,4 @@
 .strip-1-login {
-  background: linear-gradient(
-    90deg,
-    #eef5ff 2.14%,
-    #c6deff 42.99%,
-    #c1dbfe 79.67%,
-    #c5ddff 98.98%
-  );
   min-height: 900px;
   display: flex;
   align-items: center;
@@ -28,4 +21,15 @@
   transform: scale(1.01) !important;
   box-shadow: 18px 33px 49px -21px rgba(177, 177, 177, 0.438);
   /* border: 2px solid var(--yellow); */
+}
+
+/* background*/
+.strip-1-login {
+  background: linear-gradient(
+    90deg,
+    #eef5ff 2.14%,
+    #c6deff 42.99%,
+    #c1dbfe 79.67%,
+    #c5ddff 98.98%
+  );
 }

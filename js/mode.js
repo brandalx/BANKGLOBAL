@@ -11,9 +11,11 @@ function init() {
     whitesreversed: "#3a3a3a",
     primary: "#ffb444",
     primarylight: "#ffb444",
+    blackMain2:"#ffffff",
     // bg: "#3f3f3f",
   };
   const darkColors = {
+    blackMain2:"#3b414b",
     yellow: "#2667ff",
     blackMain: "#ffffff",
     headingMain: "#ffffff",
@@ -58,6 +60,11 @@ function init() {
     document.documentElement.style.setProperty(
       "--primary-light",
       colors.primarylightreversed
+    );
+    document.documentElement.style.setProperty("--blackMain2", colors.blackMain2);
+    document.documentElement.style.setProperty(
+      "--headingMain2",
+      colors.headingMain2
     );
   }
   let isDarkTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
