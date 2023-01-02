@@ -15,6 +15,8 @@
         document.head.appendChild(script);
       }
     </script>
+     <link rel="stylesheet" href="./styles/preloaderbw.css">
+     <script src="./js/preloaderwb.js" defer></script>
     <meta property="og:image" content="./img/1921.jpg" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -51,6 +53,29 @@
   </head>
   <body onload="init()" class="">
     <div id="loadingLine"></div>
+    <div class="preloaderwb" style="min-height: 100vh;" >
+      <div class="v-align " >
+        <h1>Bank Glob<m style="color:var(--yellow)">a</m>l <m><svg width="40" height="42" viewBox="0 0 40 42" fill="none" class="mb-2" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M21.0895 4.96426C20.413 4.59945 19.587 4.59945 18.9105 4.96426L5.5772 12.1546C4.87747 12.532 4.44444 13.2418 4.44444 14.0115V28.2018C4.44444 28.9715 4.87747 29.6814 5.5772 30.0587L18.9105 37.2491C19.587 37.6139 20.413 37.6139 21.0895 37.2491L34.4228 30.0587C35.1225 29.6814 35.5556 28.9715 35.5556 28.2018V14.0115C35.5556 13.2418 35.1225 12.532 34.4228 12.1546L21.0895 4.96426ZM16.7316 1.25051C18.761 0.156082 21.239 0.15608 23.2684 1.25051L36.6017 8.44089C38.7009 9.57293 40 11.7025 40 14.0115V28.2018C40 30.5109 38.7009 32.6404 36.6017 33.7725L23.2684 40.9629C21.239 42.0573 18.761 42.0573 16.7316 40.9629L3.39826 33.7725C1.29908 32.6404 0 30.5109 0 28.2018V14.0115C0 11.7025 1.29908 9.57293 3.39826 8.44089L16.7316 1.25051Z" fill=" #2c3136"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M20 16.8457C17.5454 16.8457 15.5556 18.7534 15.5556 21.1067C15.5556 23.46 17.5454 25.3677 20 25.3677C22.4546 25.3677 24.4444 23.46 24.4444 21.1067C24.4444 18.7534 22.4546 16.8457 20 16.8457ZM11.1111 21.1067C11.1111 16.4002 15.0908 12.5847 20 12.5847C24.9092 12.5847 28.8889 16.4002 28.8889 21.1067C28.8889 25.8132 24.9092 29.6286 20 29.6286C15.0908 29.6286 11.1111 25.8132 11.1111 21.1067Z" fill="var(--yellow)"/>
+          </svg>
+          </m></h1>
+          <h3>Jobs</h3>
+        <div class="loader " >
+          <aside class="loader__box loader--left" >
+            <span class="loader__circle  " ></span>
+          </aside>
+          <aside class="loader__box loader--right ">
+            <span class="loader__circle"></span>
+          </aside>
+        </div>
+      </div>
+      <!-- follow me template -->
+      <div class="made-with-love mb-4" style="color:#2c3136">
+      Bank Global Inc. All rights reserved
+      </div>
+    </div>
+    <div class="page-main-bg" id="page-main">
     <!-- <div class="wrapper"> -->
     <header class="container-fluid" style="background: var(--blackMain)">
       <div class="container">
@@ -811,5 +836,6 @@
         .addEventListener("click", scrollToTop);
     </script>
     <!-- </div> -->
+  </div>
   </body>
 </html>
