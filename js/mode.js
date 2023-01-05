@@ -99,39 +99,6 @@ function init() {
     sessionStorage.setItem("theme", currentTheme);
   });
 
-  // const savedTheme = localStorage.getItem("theme");
-  // if (savedTheme) {
-  //   // If a theme is saved, apply it
-  //   applyColors(savedTheme === "dark" ? lightColors : darkColors);
-  //   currentTheme = savedTheme;
-  // } else {
-  //   // If no theme is saved, use the user's preferred color scheme
-  //   if (currentTheme === "dark") {
-  //     applyColors(lightColors);
-  //   } else {
-  //     applyColors(darkColors);
-  //   }
-  // }
-
-  // button.addEventListener("click", () => {
-  //   if (currentTheme === "light") {
-  //     playAudioOn();
-  //     applyColors(lightColors);
-  //     currentTheme = "dark";
-  //     button.innerHTML = "Light";
-  //     // Save the dark theme in localStorage
-  //     localStorage.setItem("theme", "dark");
-  //   } else {
-  //     playAudioOff();
-  //     applyColors(darkColors);
-  //     currentTheme = "light";
-  //     button.innerHTML = "Dark";
-  //     // Save the light theme in localStorage
-  //     localStorage.setItem("theme", "light");
-  //   }
-  // });
-
-  // Add a listener for changes in the user's preferred color scheme
   const colorSchemeQuery = window.matchMedia("(prefers-color-scheme: dark)");
   colorSchemeQuery.addListener((e) => {
     if (e.matches) {
@@ -145,23 +112,6 @@ function init() {
     }
   });
 
-  //  button.addEventListener("click", () => {
-  //   if (currentTheme === "light") {
-  //     playAudioOn();
-  //     applyColors(lightColors);
-  //     currentTheme = "dark";
-  //     button.innerHTML = "Light";
-  //     // Save the dark theme in localStorage
-  //     localStorage.setItem("theme", "dark");
-  //   } else {
-  //     playAudioOff();
-  //     applyColors(darkColors);
-  //     currentTheme = "light";
-  //     button.innerHTML = "Dark";
-  //     // Save the light theme in localStorage
-  //     localStorage.setItem("theme", "light");
-  //   }
-  // });
   displayDate();
   currency();
   login();
