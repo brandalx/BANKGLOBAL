@@ -5,8 +5,7 @@
 
 
 ## Hi there! 👋
-I've just completed a quarter-long front-end project and I'd love for you to check it out.😎
-💻 I'm working on becoming a full stack web developer and there's always more to learn. I've also been honing my UX/UI design skills, follow the link below to see what I've been up to and how far I've come in my web development journey.
+I've just completed a quarter-long front-end project and I'd love for you to check it out! I'm working on becoming a full stack web developer and there's always more to learn. I've also been honing my UX/UI design skills, follow the link below to see what I've been up to and how far I've come in my web development journey.
 
 ## ℹ A little information about this project:
  - This project was built using `HTML`, `CSS`, and `JavaScript`. 
