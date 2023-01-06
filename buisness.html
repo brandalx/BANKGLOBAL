@@ -391,6 +391,43 @@
           </nav>
         </div>
       </header>
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                Thank you!🥳
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              Thank you for subscribing up for our newsletter! We have sent you
+              a message to your mailbox. Please check it out.
+            </div>
+            <div class="modal-footer">
+              <button
+                style="background: var(--yellow); border: none; outline: none"
+                type="button"
+                data-bs-dismiss="modal"
+                class="btn btn-primary"
+              >
+                Continue
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div class="strip-1-buisness container-fluid page-body">
         <div class="container">
@@ -1046,7 +1083,13 @@
                   class="inputemailfooter"
                   placeholder="Enter your email"
                 />
-                <button class="subscribe text-center">Subscribe</button>
+                <button
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Subscribe
+                </button>
               </form>
             </div>
           </div>
