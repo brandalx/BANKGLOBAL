@@ -1,4 +1,4 @@
-# Bank Global - quarter-long project, Brandon Nolan
+# Bank Global - quarter-long project
 
 ## GitHub repo with all commits: https://github.com/brandalx/BANKGLOBAL
 ## Netlify link on this web site: https://bank-global.netlify.app/
