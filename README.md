@@ -4,8 +4,7 @@
 
 
 ## Hi there! 👋
-I've just completed a quarter-long front-end project and I'd love for you to check it out.😎
-💻 I'm working on becoming a full stack web developer and there's always more to learn. I've also been honing my UX/UI design skills, follow the link below to see what I've been up to and how far I've come in my web development journey.
+I've just completed a quarter-long front-end project and I'd love for you to check it out. I'm working on becoming a full stack web developer and there's always more to learn. I've also been honing my UX/UI design skills, follow the link below to see what I've been up to and how far I've come in my web development journey.
 
 ## ℹ A little information about this project:
  - This project was built using `HTML`, `CSS`, and `JavaScript`. 
@@ -15,6 +14,7 @@ I've just completed a quarter-long front-end project and I'd love for you to che
  - This project also was creating by using some external sources from the in 
  - The layout was designed in Figma and served as a reference for the project. 
  - In order to achieve a consistent and visually appealing look across all pages, I also utilized a library of high quality 3D illustrations.
+ 
  ## Features:
   ### 1. Light/Dark toggle
 I developed a feature for toggling between **light** and **dark** modes on a website using `CSS` variables and `JavaScript`. The feature automatically detects the user's current window mode and can switch between modes accordingly. Additionally, it has the ability to remember the toggle state when the user navigates to a different page, using `SesionStorage`. This allows the user to have a consistent experience as they move between pages on the site.
